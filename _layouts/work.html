@@ -1,0 +1,18 @@
+---
+layout: work
+---                
+{{ content }}
+
+{% for project in site.work %}
+<article class="wrap-preview">
+    <h1 class="h2"><a href="{{ project.url }}">{{ project.title }}</a></h1>
+    {% if project.image %}
+    <a href="{{ project.url }}" class="wrap-preview--image figure__featimg" tabindex="-1">
+        <img src="{{ project.image }}" alt="{{ project.alt }}" loading="lazy">
+    </a>
+    {% endif %}
+    <p>{{ project.excerpt | strip_html }}</p>
+    <p><a href="{{ project.url }}" class="button" tabindex="-1">View Project</a></p>
+</article>
+{% endfor %}
+
