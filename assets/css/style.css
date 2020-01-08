@@ -303,3 +303,10 @@ dt {
     margin: 0 auto 1.5rem;
     box-shadow: .75rem .75rem 0 rgba(0,0,0,.2)
 }
+
+.wrap-footer {
+    background-color: var(--col-secondary); 
+    margin: 0 -.75rem -.75rem; 
+    padding: .75rem; 
+    overflow: auto;
+}
