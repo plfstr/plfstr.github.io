@@ -3,6 +3,9 @@
 <title>{{ page.title }} - paulfosterdesign.co.uk</title>
 <link rel="stylesheet" href="/assets/css/style.css">
 <link rel="stylesheet" href="/assets/css/style-layout.css" media="only screen and (min-width: 800px)">
+{% if page.collection === "posts" %}
+<link rel="preconnect" href="https://static.codepen.io">
+{% endif %}
 {% feed_meta %}
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/assets/images/pfd-favicon.svg" sizes="any" type="image/svg+xml">
