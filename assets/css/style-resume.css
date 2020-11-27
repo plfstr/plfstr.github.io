@@ -1,0 +1,18 @@
+h2 em, h3 em {
+    font-size: .875em;
+    font-family: var(--font-body);
+}
+
+.list--cvskills {
+    content-visibility: auto;
+    contain-intrinsic-size: 100px;
+}
+
+.list--cvskills li {
+    display: inline-block;
+    margin: .125rem 0;
+    padding: .25rem;
+    line-height: 1;
+    color: var(--col-primary);
+    background-color: var(--col-body);
+}
