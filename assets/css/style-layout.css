@@ -81,6 +81,7 @@ blockquote {
 
 @media only screen and (min-width:1200px) {
     .figure__featimg {
+        --img-shadow: translate(12%,30%);
         position: relative;
         box-shadow: none
     }
@@ -93,13 +94,13 @@ blockquote {
         right: 0;
         bottom: 0;
         left: 0;
-        z-index: -1;
-        transform: translate(12%,30%) scaleY(.5) skew(-15deg);
+        z-index: -1;        
+        transform: var(--img-shadow) scaleY(.5) skew(-15deg);
         background-color: var(--col-secondary)
     }
 
     .figure__featimg.figure__featimg--portrait:after {
-        transform: translate(22%,30%) scaleY(.5) skew(-15deg);
+        --img-shadow: translate(22%,30%);
     }
 }
 
