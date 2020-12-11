@@ -40,29 +40,14 @@ blockquote {
         grid-template-columns: 2.5fr 7.5fr;
         grid-template-columns: 3fr minmax(7fr,700px);
         grid-gap: 1.5rem;
-        gap: 1.5rem
+        gap: 1.5rem;
+        gap: clamp(1rem, 3.5vw, 5rem);
     }
 
     .wrap-content {
         grid-column-start: 2;
         grid-row-start: 2;
         margin-top: -2em
-    }
-	
-	@media only screen and (min-width:1024px) {
-        .wrap-all{
-            grid-gap: 3rem;
-            gap: 3rem;
-            margin-top: 1.5rem;
-            grid-template-columns: 1fr 700px
-        }
-    }
-
-    @media only screen and (min-width: 1200px) {
-        .wrap-all {
-            grid-gap: 4rem;
-            gap: 4rem;
-        }
     }
 }
 
