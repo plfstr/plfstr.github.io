@@ -16,9 +16,13 @@ layout: default
 <ul class="list--nostyles flex--row flex--spacebetween">
     {% if paginator.next_page %}
     <li><a class="button" href="{{ paginator.next_page_path }}" rel="prev">Earlier Posts</a></li>
+    {% else %}
+    <li><span class="button button--inactive">Earlier Posts</span></li>
     {% endif %}
     {% if paginator.previous_page %}
     <li><a class="button" href="{{ paginator.previous_page_path }}" rel="next">Recent Posts</a></li>
+    {% else %}
+    <li><span class="button button--inactive">Recent Posts</span></li>
     {% endif %}
 </ul>
 </nav>

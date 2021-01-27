@@ -248,6 +248,10 @@ dt {
     background-color: var(--col-secondary);
 }
 
+.button.button--inactive {
+    color: var(--col-lowlight);
+}
+
 .button.button--hero {
     font-weight: 700;
     color: var(--col-primary);
