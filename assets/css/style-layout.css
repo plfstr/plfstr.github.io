@@ -56,13 +56,12 @@ blockquote p:first-child:before {
     .wrap-content {
         grid-column-start: 2;
         grid-row-start: 2;
-        margin-top: -2em
     }
 	
 	@media only screen and (min-width:1024px) {
         .wrap-all{
-            grid-gap: 3rem;
-            gap: 3rem;
+            grid-column-gap: 3rem;
+            column-gap: 3rem;
             margin-top: 1.5rem;
             grid-template-columns: 1fr 700px
         }

@@ -10,8 +10,6 @@ h1, h2, p {
 
 .wrap-all {
     width: 100%;
-    grid-row-gap: 1.5rem;
-    row-gap: 1.5rem;
 }
 
 .grid--projects {
