@@ -66,13 +66,6 @@ blockquote p:first-child:before {
             grid-template-columns: 1fr 700px
         }
     }
-
-    @media only screen and (min-width: 1200px) {
-        .wrap-all {
-            grid-gap: 4rem;
-            gap: 4rem;
-        }
-    }
 }
 
 .link__nav--home {
