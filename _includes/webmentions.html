@@ -1,0 +1,14 @@
+<section>
+<h2>Webmentions</h2>
+<p>Posts from across the web that mention and link to this post. More <a href="https://indieweb.org/webmention/">about webmentions</a>.</p>
+<ul class="list--nostyles">
+{% assign mentions in site.data.mentions %}
+{% for mention in mentions[page.title].children %}
+  <li>
+    <p class="{{ mention['wm-property'] }}">
+        <b><a href="{{ mention.url }}" rel="nofollow ugc">{{ mention.name | default: mention.url }}</a></b> - &lt;{{ mention.content }}&gt;, {{ mention.['wm-received'] }}
+    </p>
+  </li>
+{% endfor %}
+</ul>
+</section>
