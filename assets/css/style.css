@@ -289,6 +289,10 @@ dt {
     line-height: 1
 }
 
+.wrap-pagination {
+    gap: .5rem
+}
+
 .codepen {
     padding: .75rem;
     font-family: Hack, Menlo, Monaco, monospace    
