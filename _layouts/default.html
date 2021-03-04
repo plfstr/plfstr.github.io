@@ -17,6 +17,10 @@
                 {{ content }}
 
                 {% include postinfo.html %}
+
+                {% if page.mentions == true %}
+                    {% include webmentions.html %}
+                {% endif %}
                 
             </article>
         </main>
