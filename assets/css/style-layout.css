@@ -144,7 +144,6 @@ blockquote p:first-child:before {
     float: right;
     float: inline-end;
     margin: .5rem;
-    max-width: 33%
 }
 
 @supports (display: grid) {
