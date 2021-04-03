@@ -320,7 +320,7 @@ dt {
     }
 }
 
-h2 em, h3 em {
+:matches(h2, h3) em {
     font-size: .875em;
     font-family: var(--font-body);
 }
