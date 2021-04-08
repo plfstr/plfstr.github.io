@@ -124,9 +124,7 @@ blockquote p:first-child:before {
 
 .wrap-preview {
     margin-bottom: 3rem;
-    padding: 0;
     overflow: auto;
-    background-color: transparent;
 }
 
 @supports (display:flow-root) {
