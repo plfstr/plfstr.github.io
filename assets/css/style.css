@@ -133,14 +133,14 @@ mark,::selection,::target-text {
     background: var(--col-highlight)
 }
 
-a:link,a:visited {
+a :is(:link,:visited) {
     color: var(--col-highlight, currentColor);
     text-decoration: none;
     transition: color .1s linear 0;
     transition: color .1s linear 0,text-decoration-color .1s linear 0
 }
 
-a:hover,a:active,a:focus,.active,[aria-current] {
+a :is(:hover,:active,:focus), .active, [aria-current] {
     color: var(--col-body, currentColor)!important;
     text-decoration: underline !important;
     text-decoration-skip-ink: auto;
@@ -342,7 +342,7 @@ dt {
     }
 }
 
-h2 em, h3 em {
+:is(h2, h3) em {
     font-size: .875em;
     font-family: var(--font-body);
 }
