@@ -6,10 +6,27 @@
                 
     <nav>
         <ul class="wrap-banner--nav flex--col flex--row list--nostyles h2">
+            
             <li class="flex--fifty wrap-banner--pfd"><a class="link__nav--home" href="/">Paul Foster Design</a></li>
+            
+            {% if page.slug == 'work' %}c
+            <li class="flex--auto flex--justifycenter"><a href="/work/" aria-current="page">Work</a></li>
+            {% else %}
             <li class="flex--auto flex--justifycenter"><a href="/work/">Work</a></li>
+            {% endif %}
+
+            {% if page.slug == 'blog' %}
+            <li class="flex--auto flex--justifycenter"><a href="/blog/" aria-current="page">Blog</a></li>
+            {% else %}
             <li class="flex--auto flex--justifycenter"><a href="/blog/">Blog</a></li>
+            {% endif %}
+            
+            {% if page.slug == 'about' %}
+            <li class="flex--auto flex--justifycenter"><a href="/about/" aria-current="page">About</a></li>
+            {% else %}
             <li class="flex--auto flex--justifycenter"><a href="/about/">About</a></li>
+            {% endif %}
+
         </ul>
     </nav>
 
