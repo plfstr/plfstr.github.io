@@ -286,6 +286,13 @@ dt {
     display: none
 }
 
+@media only screen and (min-width: 600px) and (max-width: 799px) {
+    .wrap-sidebar {
+        display: flex;
+        gap: 3rem;
+    }
+}
+
 .wrap-preview, #mentionable {
     margin-bottom: 1.5rem;
     padding: 1rem .75rem .5rem;
