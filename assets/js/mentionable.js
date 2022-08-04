@@ -80,6 +80,9 @@ class Mentionable extends Component {
       msg: "",
       mentions: []      
     }
+    if (this.state.lazyload === false) {
+      this.state.lazyload = this.isDatasaving();
+    }
   }
   
   static getDerivedStateFromError(error) {
@@ -110,6 +113,14 @@ class Mentionable extends Component {
   }
 
   componentWillUnmount() {
+  }
+  
+  isDatasaving() {
+    try {
+      return "connection" in navigator && navigator.connection.saveData === true;
+    } catch(err) {
+      return false;
+    }
   }
 
   async _fetchCount() {
