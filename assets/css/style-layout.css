@@ -83,8 +83,15 @@ h1:before {
     }
 
     .figure__featimg.figure__featimg--portrait:after {
-        transform: translate(22%,30%) scaleY(.5) skew(-15deg);
+    	translate: 10% 0;
     }
+
+    @supports not (translate: 10% 0) {
+        .figure__featimg.figure__featimg--portrait:after {
+            transform: translate(22%,30%) scaleY(.5) skew(-15deg);
+        }
+    }
+	
 }
 
 .wrap-preview {
