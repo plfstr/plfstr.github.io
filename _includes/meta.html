@@ -28,9 +28,13 @@
 <meta property="og:url" content="{{ page.url }}">
 <meta property="og:site-name" content="{{ site.url }}">
 <meta property="og:locale" content="en_GB">
-{% if page.thumbnail %}
+{% if page.dir == '/work/' %}
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="{{ page.thumbnail | prefix: https://www.paulfosterdesign.co.uk/assets/images/ }}">
+{% if page.thumbnail %}
+<meta name="twitter:image" content="{{ page.thumbnail | prepend: '/assets/images/' }}">
+{% else %}
+<meta name="twitter:image" content="{{ page.title | downcase | remove: ' ' | append: '.jpg' | prepend: '/assets/images/' }}">
+{% endif %}
 <meta name="twitter:image:alt" content="{{ page.title }}">
 {% else %}
 <meta name="twitter:card" content="summary">
