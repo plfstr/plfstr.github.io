@@ -140,11 +140,10 @@ class Mentionable extends Component {
     }
 
     componentDidMount() {
-        if (this.state.lazyload) {
-            this.setState({ msg: "Loading..." });
+        this.setState({ msg: "Loading..." });
+	if (this.state.lazyload) {
             this._fetchCount();
         } else {
-            this.setState({ msg: "Loading..." })
             this._fetchMentions();
         }
     }
