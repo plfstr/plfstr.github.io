@@ -153,6 +153,11 @@ a[rel] {
     text-decoration: none
 }
 
+a:is([href="/brushswap/"], [href="/colordinates/"], [href="/elitricity/"]):after {
+	content: "(PWA)";
+	margin-inline-start: .125em;
+}
+
 article a[href*="//"]:not([href*="paulfosterdesign.co.uk/"]):after {
     content: " \2794";
     font-size: initial;
