@@ -1,7 +1,7 @@
 <meta charset="utf-8">
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; script-src 'self' https://static.codepen.io; img-src 'self'; child-src https://codepen.io; manifest-src 'self'; connect-src https://webmention.io">
 <meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
-<title>{{ page.title }} - paulfosterdesign.co.uk</title>
+<title>{{ page.title }} {% if paginator.page %}{{ paginator.page }}/{{ paginator.total_pages }} pages {% endif %}- paulfosterdesign.co.uk</title>
 <link rel="stylesheet" href="/assets/css/style.css">
 <link rel="stylesheet" href="/assets/css/style-layout.css" media="only screen and (min-width: 800px)">
 {% if page.tags contains "codepen" %}
