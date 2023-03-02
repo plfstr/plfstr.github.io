@@ -2,6 +2,10 @@ h1, h2, p {
 	margin: 0 0 1.5rem;
 }
 
+.wrap-again {
+    display: contents;
+}
+
 .wrap-content {
 	grid-column: 1/span 2;
     grid-row: auto;
