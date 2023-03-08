@@ -278,7 +278,8 @@ dt {
 
 .wrap-all {
     margin: auto;
-    max-width: 43.75rem
+    max-width: 43.75rem;
+    container-type: inline-size;
 }
 
 .wrap-logo {
@@ -369,6 +370,14 @@ h2 em, h3 em {
 
 .copyright {
     text-align: end;
+}
+
+@container (min-width: 480px) and (max-width: 799px) {
+    .wrap-sidebar {
+        display: flex;
+        flex-flow: row wrap;
+        column-gap: 3rem;
+    }
 }
 
 @media print {
