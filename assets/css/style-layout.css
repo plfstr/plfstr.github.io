@@ -88,9 +88,7 @@ h1:before {
 }
 
 .wrap-preview {
-    padding: 0;
-    overflow: auto;
-    background-color: transparent;
+    all: revert;
 }
 
 @supports (display:flow-root) {
