@@ -301,6 +301,7 @@ dt {
 }
 
 .wrap-preview--title {
+    margin-block-end: .75rem;
     font-size: 2em;
     line-height: 1
 }
