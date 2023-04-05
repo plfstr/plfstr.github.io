@@ -70,8 +70,9 @@ function Mentionby(props) {
     const types = {
         "mention-of": "Mentioned",
         "like-of": "Liked",
-        "bookmark": "Bookmarked",
-        "reply-to": "Replied to"
+        "bookmark-of": "Bookmarked",
+        "in-reply-to": "Replied to",
+        "repost-of": "Reposted"
     }
     return `${types[type]} this post`;
  }
