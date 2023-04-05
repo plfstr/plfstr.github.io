@@ -66,7 +66,7 @@ function Mentionby(props) {
  * @param {string} type - Mention type
  * @returns {string}
  */
- function mentiontype(type) {
+ function mentiontype(type = "mention-of") {
     const types = {
         "mention-of": "Mentioned",
         "like-of": "Liked",
