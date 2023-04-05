@@ -296,7 +296,7 @@ dt {
 .wrap-preview, #mentionable {
     margin-bottom: 1.5rem;
     margin-trim: block;
-    padding: 1rem .75rem .5rem;
+    padding: .75rem;
     border-radius: .125rem;
     background-color: var(--col-secondary);
 }
