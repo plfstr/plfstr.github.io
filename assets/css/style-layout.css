@@ -54,12 +54,8 @@ h1:before {
     font-weight: bolder
 }
 
-.wrap-logo {
-    margin: 0
-}
-
 .wrap-logo--link {
-    display: block;
+    margin: 0;
     transform: translate(1rem, 3.5rem) rotate(-18deg) scale(1.3)
 }
 
