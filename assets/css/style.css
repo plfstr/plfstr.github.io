@@ -281,7 +281,8 @@ dt {
     max-width: 43.75rem
 }
 
-.wrap-logo {
+.wrap-logo--link {
+    display: block;
     margin: 0 25%
 }
 
