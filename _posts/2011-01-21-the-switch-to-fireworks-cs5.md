@@ -37,6 +37,8 @@ More about Fireworks batch processing is covered in this article on [Webdesign T
 
 ## Vector Drawing
 
+![Fireworks CS5 box vector illustration](/assets/images/fireworks-cs5-box.png)
+
 As a quick demo I drew a Fireworks CS5 box drawn as vector in Fireworks.
 
 I am used to creating vectors in Ps. My main hangup in Fw at first was the fact that you can’t grab the path between two points and drag them as you can in Photoshop, you have to drag using a point – I know that is a small point but a change in behaviour. I found it a little more clunky in general at first, the are many more tools for manipulation and selection of points – everything is delineated out and feels like much button pressing is going on than working directly with the paths.
