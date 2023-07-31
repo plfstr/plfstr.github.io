@@ -12,7 +12,7 @@ I heard the rumours, but I was exhaling in relief, taking in the news of the lau
 
 Now before you write me off as another jaded Fireworks fanboy, which maybe I am. I used to use and still do love Photoshop. It was one of the most used and most comfortable pieces of software I have ever used. I knew more keyboard shortcuts than I collectively know for any of my other software.
 
-I even wrote about my experience with moving to Fireworks. Moving over hasn’t been straightforward and I haven’t attained the same oneness and flow that I had with Photoshop. But with that in mind, and this I do share this with the Fireworks evangelists, it was THE tool for web and ui design. Fireworks wins, not Photoshop, unquestionably for me.
+I even wrote about [my experience with moving to Fireworks](/blog/the-switch-to-fireworks-cs5/). Moving over hasn’t been straightforward and I haven’t attained the same oneness and flow that I had with Photoshop. But with that in mind, and this I do share this with the Fireworks evangelists, it was THE tool for web and ui design. Fireworks wins, not Photoshop, unquestionably for me.
 
 ## I can see where they are coming from
 
