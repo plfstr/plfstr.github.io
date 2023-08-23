@@ -1,5 +1,8 @@
 //@ts-check
-import { html, Component, render } from './bundle.min.js';
+import { html, Component, createRef, render } from './preact.min.js';
+import htm from './htm.min.js';
+
+const html = htm.bind(h);
 
 /** * @type {HTMLElement} */
 const mentiondom = document.querySelector('#mentionable');
@@ -168,12 +171,15 @@ function Mentionmessage(props) {
 // <Mentionable/>
 class Mentionable extends Component {
 
+    //NEW! Create ref!
+    ref = createRef();
+
     constructor(props) {
         super(props);
         this.fetchNow = (ev) => {
             ev.preventDefault();
             this._fetchMentions();
-            document.querySelector('#mentionsoutput').focus();
+            this.focusMentions();
             this.setState({ lazyload: false });
         }
         this.state = {
@@ -202,10 +208,17 @@ class Mentionable extends Component {
         } else {
             this.setState({ msg: "Loading..." })
             this._fetchMentions();
+            this.focusMentions();
         }
     }
 
     componentWillUnmount() {
+    }
+
+    focusMentions() {
+        if (this.ref.current) {
+            this.ref.current.focus();
+        }
     }
 
     /**
@@ -270,7 +283,7 @@ class Mentionable extends Component {
 	${!this.state.mentions.length ?
                 html`<input class="button" type="button" value="Load Webmentions" aria-controls="mentions" onClick=${this.fetchNow} />` : null
             }
-	<div id="mentions">
+	    <div id="mentions" tabindex="-1" ref="${this.ref}">
           <${Mentionslist} mentions=${this.state.mentions} />          
         </div>        
       </section>
