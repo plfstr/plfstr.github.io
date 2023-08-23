@@ -1,5 +1,5 @@
 //@ts-check
-import { html, Component, Fragement, createRef, render } from './preact.min.js';
+import { html, Component, Fragment, createRef, render } from './preact.min.js';
 import htm from './htm.min.js';
 
 const html = htm.bind(h);
