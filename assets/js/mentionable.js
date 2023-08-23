@@ -1,5 +1,5 @@
 //@ts-check
-import { html, Component, createRef, render } from './preact.min.js';
+import { html, Component, Fragement, createRef, render } from './preact.min.js';
 import htm from './htm.min.js';
 
 const html = htm.bind(h);
@@ -131,7 +131,7 @@ function Mentionslist(props) {
     let mentions = props.mentions;
     if (!props.mentions.length) return null;
     return html`
-  <ul id="mentionsoutput" aria-labelledby="webmentions" tabindex="0">
+  <Fragment>
     ${mentions.map((
         {
             url,
@@ -154,7 +154,7 @@ function Mentionslist(props) {
 	</article>
     </li>
     `})}
-  </ul>
+  </Fragment>
   `;
 }
 
@@ -283,9 +283,9 @@ class Mentionable extends Component {
 	${!this.state.mentions.length ?
                 html`<input class="button" type="button" value="Load Webmentions" aria-controls="mentions" onClick=${this.fetchNow} />` : null
             }
-	    <div id="mentions" tabindex="-1" ref="${this.ref}">
+     	<ul id="mentionsoutput" aria-labelledby="webmentions" tabindex="-1" ref="${this.ref}">
           <${Mentionslist} mentions=${this.state.mentions} />          
-        </div>        
+        </ul>        
       </section>
     `
     }
