@@ -4,13 +4,12 @@ article h2, article p {
 }
 
 .wrap-content {
-	grid-column: 1/span 2;
-    grid-row: auto;
-    margin-top: 0;
+    display: contents;
 }
 
-.wrap-all {
-    width: 100%;
+article.wrap-all {
+    display: contents;
+    width: 100%;	
 }
 
 .grid--projects {
