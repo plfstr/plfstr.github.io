@@ -22,9 +22,9 @@ The site is now responsive and built with a mobile first principle, so users sho
 
 ## Why change to Kirby CMS?
 
-I enjoy using WordPress, I've been through two site overhauls with it now since WordPress v2.7. It was time for a change. 
+I enjoy using WordPress, I've been through two site overhauls with it now since WordPress v2.7. It was time for a change. This site now runs on Kirby CMS, a ‘flat-file’ PHP based framework.
 
-*	**Features**: To be honest, my site only used the bare minimal of features that WordPress provides. It was over the top for my needs and the trend will remain so as WordPress transitions from a blogging platform to a full-blown CMS. With my setup now there are just my files, my templates and the content result.
+*	**Features**: To be honest, my site only used the bare minimal of features that WordPress provides. It was over the top for my needs and the trend will remain so as WordPress transitions from a blogging platform to a full-blown CMS. With my Kirby setup now there are just my files, my templates and the content result.
 
 *	**Speed**: I spent a lot of [time last year](/blog/year-in-review-2013/) getting the site faster and faster both myself and with the use of caching. Speed is important and Kirby I hope is going to give me even more. It's more light-weight and performance has been speedy so far, page loads of  approximately 1 second.
 
