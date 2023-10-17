@@ -88,43 +88,19 @@ h1:before {
     overflow: auto;
 }
 
-@supports (display:flow-root) {
-    .wrap-preview {
-        display: flow-root;
-        overflow: visible;
-    }
-}
-
-.wrap-preview--title:before {
-    color: currentColor
-}
-
-.wrap-preview--image {
-    float: right;
-    float: inline-end;
-    margin-inline-start: .5rem;
-    max-width: 40%;
-}
-
-@supports (display: grid) {
-.wrap-cards {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-column-gap: 1.5rem;
-	column-gap: 1.5rem;
-}
-
-.wrap-cards .wrap-preview--image {
-	float: none;
-	margin-inline-start: 0;	
-	max-width: none;
-}
-
-@supports (grid-template-rows: subgrid) {
-	.wrap-cards .wrap-preview {       
-	    display: inline-grid;
-	    grid-template-rows: subgrid;
-	    grid-row: auto / span 3;
+@scope (.wrap-preview) {	
+	:scope {
+	        display: flow-root;
+	        overflow: visible;
 	}
-}
+	
+	h1:before {
+	    color: unset
+	}
+	
+	img {
+	    float: inline-end;
+	    margin-inline-start: .5rem;
+	    max-width: 40%;
+	}
 }
