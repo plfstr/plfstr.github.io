@@ -37,7 +37,8 @@ This was my favourite response (and good approach):
 + A quiz on [The Meaning of Web Accessibility: Accessible HTML & Assistive Technologies w/ Nic Steenhout](https://youtu.be/k8k_6MBtBas?t=2607) on YouTube (~43min, 25sec)
 + [10 HTML Elements You May Have Never Heard Of](https://dev.to/jenndiaz/10-html-elements-you-may-have-never-heard-of-2bhb) by Jennifer Grenier Diaz.
 + [Web Weekly #96](https://www.stefanjudis.com/blog/web-weekly-96/), highlighting the new search tag in a newsletter by Stefan Judis.
-
++ [Font-end Focus, #614](https://frontendfoc.us/issues/614). Subject line: ‘Test how many HTML tags you know.’
+  
 ## HTML Tags Recalled
 
 Most pleasing, was the number of people mentioning discovering new HTML tags and elements they had forgotten or overlooked before. So the face-palming frustration of this _game_, may have some beneficial effect afterall.
