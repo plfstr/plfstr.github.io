@@ -1,3 +1,8 @@
+
+User-agent: *
+Disallow: /blog/the-switch-to-fireworks-cs5/
+Disallow: /blog/end-of-fireworks-cs/
+
 User-agent: CCBot
 User-agent: Google-Extended
 User-agent: GPTBot
