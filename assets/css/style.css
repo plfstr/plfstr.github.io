@@ -332,7 +332,7 @@ dt {
     }
 }
 
-p:has(> em > strong) {
+:is(h2, h3) + p:has(+ ul) {
     margin: -1em 0 .75rem;
     color: var(--col-highlight);
 }
