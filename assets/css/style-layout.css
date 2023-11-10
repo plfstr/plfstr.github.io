@@ -106,25 +106,23 @@ h1:before {
     max-width: 40%;
 }
 
-@supports (display: grid) {
-.wrap-cards {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-column-gap: 1.5rem;
-	column-gap: 1.5rem;
-}
+@supports (selector(&)) {
+    .wrap-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 1.5rem;
+        column-gap: 1.5rem;
 
-.wrap-cards .wrap-preview--image {
-	float: none;
-	margin-inline-start: 0;	
-	max-width: none;
-}
-
-@supports (grid-template-rows: subgrid) {
-	.wrap-cards .wrap-preview {       
-	    display: inline-grid;
-	    grid-template-rows: subgrid;
-	    grid-row: auto / span 3;
-	}
-}
+        & .wrap-preview--image {
+            float: none;
+            margin-inline-start: 0;	
+            max-width: none;
+        }
+	    
+        & .wrap-preview {       
+            display: inline-grid;
+            grid-template-rows: subgrid;
+            grid-row: auto / span 3;
+        }
+    }
 }
