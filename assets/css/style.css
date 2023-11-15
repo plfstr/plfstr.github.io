@@ -293,12 +293,15 @@ dt {
     container-type: inline-size;
 }
 
-.wrap-preview, #mentionable {
+.wrap-preview, .codepen, #mentionable {
     margin-bottom: 1.5rem;
-    margin-trim: block;
     padding: .75rem;
     border-radius: .125rem;
     background-color: var(--col-secondary);
+}
+
+.wrap-preview {
+    margin-trim: block;  
 }
 
 .wrap-preview--title {
@@ -308,8 +311,6 @@ dt {
 }
 
 .codepen {
-    padding: .75rem;
-    background-color: var(--col-secondary);
     font-family: monospace, monospace;
 }
 
@@ -317,8 +318,6 @@ dt {
 .figure__featimg {
     display: block;
     max-width: 43.75rem;
-    margin-bottom: 1.5rem;
-    background-color: var(--col-secondary);
     box-shadow: .75rem .75rem 0 rgba(0,0,0,.2)
 }
 
