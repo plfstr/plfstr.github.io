@@ -331,6 +331,10 @@ dt {
     }
 }
 
+.figure--hover {
+    margin: 0 0 1.5rem;
+}
+
 :is(h2, h3) + p:has(strong):has(+ ul) {
     margin: -1em 0 .75rem;
     color: var(--col-highlight);
