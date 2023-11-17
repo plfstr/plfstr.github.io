@@ -106,6 +106,10 @@ h1:before {
     max-width: 40%;
 }
 
+.wrap-preview p {
+    text-wrap: pretty
+}
+
 @supports (selector(&)) {
     .wrap-cards {
         display: grid;
