@@ -59,28 +59,32 @@ h1:before {
 }
 
 @media (min-width: 1200px) {
-    .wrap-logo--link {
-        scale: 1.1;
-    }
+	@supports (scale: 1.1) {
+	    .wrap-logo--link {
+	        scale: 1.1;
+	    }
+		
+	    .figure__featimg {
+	        position: relative;
+	        box-shadow: none
+	    }
 	
-    .figure__featimg {
-        position: relative;
-        box-shadow: none
-    }
-
-    .figure__featimg:after {
-        content: "";
-        position: absolute;
-        display: block;
-        inset: 0;
-        z-index: -1;
-        transform: translate(12%,30%) scaleY(.5) skew(-15deg);
-        background-color: var(--col-secondary)
-    }
-
-    .figure__featimg.figure__featimg--portrait:after {
-        transform: translate(22%,30%) scaleY(.5) skew(-15deg);
-    }
+	    .figure__featimg:after {
+	        content: "";
+	        position: absolute;
+	        display: block;
+	        inset: 0;
+	        z-index: -1;
+	        translate: 12% 30%;
+		transform: skew(-15deg);
+		scale: 1 0.5;
+	        background-color: var(--col-secondary)
+	    }
+	
+	    .figure__featimg--portrait:after {
+	        translate: 24% 30%;
+	    }
+	}
 }
 
 .wrap-preview {
