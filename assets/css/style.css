@@ -289,10 +289,6 @@ dt {
     display: none
 }
 
-.wrap-content {
-    container-type: inline-size;
-}
-
 .wrap-preview, .codepen, #mentionable {
     margin-bottom: 1.5rem;
     padding: .75rem;
