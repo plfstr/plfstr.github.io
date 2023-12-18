@@ -376,11 +376,12 @@ dt {
     }
 
     nav,
-    .wrap-logo,
+    .button,
     .wrap-banner,
+    .wrap-logo,
     .wrap-sidebar,
-    #socialicons, 
-    .button {
+    #socialicons,
+    #syndication {
         display: none;
     }
     
