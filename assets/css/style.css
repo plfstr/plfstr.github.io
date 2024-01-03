@@ -141,7 +141,7 @@ a:link,a:visited {
     transition: color .1s linear 0,text-decoration-color .1s linear 0
 }
 
-a:hover,a:active,a:focus,.active,[aria-current] {
+a:where(:hover,:active,:focus,:local-link) {
     color: var(--col-body, currentColor)!important;
     text-decoration: underline !important;
     text-decoration-skip-ink: auto;
