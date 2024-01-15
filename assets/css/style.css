@@ -125,7 +125,8 @@ ol {
     list-style-type: upper-alpha
 }
 
-ul ul {
+ul ul, 
+#syndication ul {
     list-style-type: circle;
     margin-bottom: 0;
 }
