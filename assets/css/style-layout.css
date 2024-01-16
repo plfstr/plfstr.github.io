@@ -103,7 +103,7 @@ h1:before {
     float: right;
     float: inline-end;
     margin-inline-start: .5rem;
-    max-width: 15rem;
+    max-width: 20rem;
 }
 
 .wrap-preview p {
