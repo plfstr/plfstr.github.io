@@ -6,9 +6,9 @@ source: https://codepen.io/plfstr/pen/VwZqyjM
 tags: [codepen, tumblr, css, printtheme, github]
 ---
 
-![Print Theme Customiser](/assets/images/print-theme-customiser.png)
+This project began as a static recreation of [Print Theme](/work/print-theme/), my <abbr title="Cyan Magenta Yellow Key(Black)">CMYK</abbr> custom theme for Tumblr. 
 
-This project began as a static recreation of [Print Theme](/work/print-theme/), my CMYK custom theme for Tumblr. 
+![Print Theme Customiser](/assets/images/print-theme-customiser.png)
 
 I used to use Print Theme on my personal blog on Tumblr but have since moved to WordPress, so there was no live theme demo. The Print Theme source code is on GitHub but doesn’t output clean HTML due to the Tumblr template tags included. I wanted to show how the theme originally looked.
 
