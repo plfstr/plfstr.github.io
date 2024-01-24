@@ -5,7 +5,7 @@ date: 2021-01-20
 tags: [codepen, personal, html, social, game]
 ---
 
-My little [HTML test](/blog/html-elements-test/) really [took off on Twitter](https://twitter.com/search?q=%22html%20tags%20memory%20test%22). Leslie Cohn-Wein (@lesliecdubs), whose tweet started all this, [retweeted me](https://twitter.com/lesliecdubs/status/1339714662083006464?s=20) to her enthusiastic followers. Next, Manuel Matuzović (@mmatuzo AKA @HTM_Hell), [mentioned it](https://twitter.com/mmatuzo/status/1339907494030811136) and I think it grew from there.
+My little [HTML tags test](/blog/html-elements-test/) really [took off on Twitter](https://twitter.com/search?q=%22html%20tags%20memory%20test%22). Leslie Cohn-Wein (@lesliecdubs), whose tweet started all this, [retweeted me](https://twitter.com/lesliecdubs/status/1339714662083006464?s=20) to her enthusiastic followers. Next, Manuel Matuzović (@mmatuzo AKA @HTM_Hell), [mentioned it](https://twitter.com/mmatuzo/status/1339907494030811136) and I think it grew from there.
 
 ## Reaction
 
@@ -18,6 +18,8 @@ This was my favourite response (and good approach):
 [The Pen](https://codepen.io/plfstr/details/zYqQeRw) has sailed into my top 3 [popular pens](https://codepen.io/plfstr/popular/) on CodePen with 15,000+ views so far.
 
 ## Sites Featured
+
+HTML Tags Memory Test has featured in a number of different articles and newsletters:
 
 + Some Redditors submitted it to [/r/webdev/](https://www.reddit.com/r/webdev/comments/kv44wj/html_tags_memory_test_how_many_html_tags_can_you/), [/r/web_design/](https://www.reddit.com/r/web_design/comments/kv44q6/html_tags_memory_test_how_many_html_tags_can_you/), and [/r/frontend/](https://www.reddit.com/r/Frontend/comments/kv44oc/html_tags_memory_test_how_many_html_tags_can_you/) and views jumped 1,000 overnight.
 + Mentioned in a user submitted post, [Semantics what does it mean?](https://translate.google.com/translate?sl=auto&tl=en&u=https://fronteers.nl/blog/2020/12/semantiek-wat-betekent-het)(Google Translate link), on fronteers.nl (of conference fame) as part of their 2020 advent calendar.
