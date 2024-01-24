@@ -131,8 +131,7 @@ ul ul,
     margin-bottom: 0;
 }
 
-::marker,
-::target-text {
+::marker {
     color: var(--col-highlight, currentColor)
 }
 
