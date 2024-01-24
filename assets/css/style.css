@@ -198,6 +198,12 @@ dt {
     font-style: italic
 }
 
+::selection,
+::target-text {
+    color: var(--col-primary);
+    background-color: var(--col-highlight);
+}
+
 .invisible {
     clip: rect(1px, 1px, 1px, 1px);
     clip-path: inset(50%);
