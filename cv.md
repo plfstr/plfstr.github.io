@@ -18,8 +18,8 @@ I want to form a key part of a team and actively participate in moving a company
 *	[CodePen](https://codepen.io/plfstr/popular/) success.
 	+ First pen, [Excerpt Peek](/blog/excerpt-peek/), made editors Picks and Popular sections. [Chicken Swing SVG](/blog/chicken-swing-svg/) was selected for Popular Picks. [Flexbox Film Credits](/blog/flexbox-film-credits/) and [Chicken Swing Dynamic](/blog/chicken-swing-dynamic/), selected for Editor Picks. 
 	+ [CSS 1K](/blog/css1k-on-codepen/) became the basis of a CodePen blog post about this popular coding challenge, using 1Kb of CSS. 
-	+ [Hop Over Notification](/blog/10k-hop-over-views/) featured in [A Collection of Pure CSS Animation Snippets & Demos](http://marketblog.envato.com/inspirations/pure-css-animation-snippets/), by Envato and has passed 65,000+ views, 175+ likes.
-	+ [HTML Memory Test](/blog/html-elements-test/) went [kind-of viral](/blog/html-memory-tested/) in the Twitter web community and [amassed 50,000+ views](/blog/50k-mem-test-views/).
+	+ [Hop Over Notification](/blog/10k-hop-over-views/) CSS keyframe effect has 65,000+ views, 200+ likes.
+	+ [HTML Memory Test](/blog/html-elements-test/) went [kind-of viral](/blog/html-memory-tested/) in the web community, has featured [in several newsletters](/blog/html-memory-tested/#:~:text=Web%20Weekly%20%2396,tags%20you%20know.%E2%80%99) and [amassed 50,000+ views](/blog/50k-mem-test-views/).
 *	[Kirby CMS CodePen extension](/blog/kirbytag-codepen/). _The extension featured on getkirby-plugins.com, a quality resource of Kirby 2 code plugins._
 *	Contributed to open source projects [on GitHub](https://github.com/plfstr) (Arctic Code Vault Contributor) and participated in [user testing](/blog/council-website-testing/) of the local council website redesign.
 *	[404 page](/404page/) featured in numerous collections of creative 404s.
