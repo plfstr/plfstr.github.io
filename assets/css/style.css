@@ -160,17 +160,13 @@ article a[href*="//"]:not([href*="paulfosterdesign.co.uk/"]):after {
 }
 
 code,pre,kbd {
-    font-family: monospace, monospace
-}
-
-p>code,kbd {
     padding: 0.0625rem .125rem;
-    border: 0.0625rem solid var(--col-lowlight)
+    font-family: monospace, monospace;
+    font-size: 1rem;
 }
 
-code, kbd {
-    font-size: .95em;
-    font-size: 1.75ex;
+p>code,kbd {    
+    border: 0.0625rem solid var(--col-lowlight)
 }
 
 pre {
