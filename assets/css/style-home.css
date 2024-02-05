@@ -19,11 +19,8 @@ article :is(h2, p) {
     grid-template: 1fr / 1fr 1fr 1fr;
     grid-gap: 1rem;
     gap: 1rem;
-    margin-bottom: 0;
-}
-
-@media (min-width: 1050px) {
-    .grid--projects {
+    margin-bottom: 0;    
+    @media (width >= 1050px) {
         grid-gap: 2.5rem;
         gap: 2.5rem;
         margin-inline: -1.26rem;
