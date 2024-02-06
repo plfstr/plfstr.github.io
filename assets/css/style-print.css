@@ -1,0 +1,46 @@
+nav,
+.wrap-logo,
+.wrap-banner,
+.wrap-sidebar,
+#socialicons, 
+.button {
+    display: none;
+}
+
+body {
+    font: normal 100%/1.5 Tahoma, Verdana, sans-serif;
+}
+
+a[href*="/"]:after {
+    content: "(" attr(href) ")" !important;
+    margin-inline-start: .25em;
+    word-wrap: break;
+    white-space: normal;
+}
+
+a:not([href^="http"]):after {
+    content: "(www.paulfosterdesign.co.uk" attr(href) ")" !important;
+}
+
+abbr[title]:after {
+    content: "(" attr(title) ")"
+}
+
+blockquote {
+    padding-inline: .5rem;
+    border-inline-start: 3px solid #ccc;
+}
+
+code {
+    white-space: pre-wrap;
+    font-size: smaller;
+}
+
+img, figure, pre {
+    page-break-inside: avoid;
+}
+
+pre {
+    padding: .5rem;
+    border: 0.0625rem dotted;
+}
