@@ -65,6 +65,6 @@ I want to form a key part of a team and actively participate in moving a company
 
 ## Have a role for me?
 
-If you like what you read and have a role available, see my [LinkedIn profile](https://www.linkedin.com/in/paulfosterdesign) or tweet [@plfstr](https://twitter.com/plfstr).
+If you like what you read and have a role available, see my [LinkedIn profile](https://www.linkedin.com/in/paulfosterdesign) or message [@plfstr@mastodon.social](https://mastodon.social/@plfstr).
 
 [Back To Home](/)
