@@ -363,7 +363,7 @@ dt {
     text-align: end;
 }
 
-@media (hover: none), print {
+@media print, (any-hover: none) {
     abbr[title]::after {
       content: "(" attr(title) ")";
     }
