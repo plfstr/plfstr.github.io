@@ -8,9 +8,9 @@ alt: Print Theme for Tumblr blogging platform
 
 Print Theme is my first publicly released theme for the Tumblr platform. It draws its inspiration from the <abbr title="Cyan Magenta Yellow Key(Black)">CMYK</abbr> colour blocks you see at the edge of printed material. I thought it would appeal to the creative bias of Tumblr users, with a graphical style I had not seen on other themes. 
 
-I noticed that many Tumblr themes sacrificed quality markup and accessibility for presentation. To ensure the best experince for all users I included HTML5 semantic markup, accessibility, international language support (and backwards compatibility to older browsers) while putting the content first and allowing theme customisation.
+I noticed that many Tumblr themes sacrificed quality markup and accessibility for presentation. To ensure the best experience for all users I included HTML5 semantic markup, accessibility, international language support, while putting the content first and allowing theme customisation.
 
-## Theme Features
+## Features
 
 *	HTML5 semantic markup
 *	Typographic grid
@@ -18,11 +18,10 @@ I noticed that many Tumblr themes sacrificed quality markup and accessibility fo
 *	Multi-language support
 *	@media queries to handle print styles
 
+For more info about the themes features and customisation options available, see my [Print Theme page](https://paulfosterdesign.wordpress.com/printtheme) for more details. Print Theme can be found [on the Tumblr Theme Garden](https://www.tumblr.com/theme/30839).
+
+## Response
 
 The theme achieved 200+ installs within its first <time datetime="P7D">7 days</time> available and peaked at **450+ installs**.
 
-For more info about the themes features and customisation options available, see my [Print Theme page](https://paulfosterdesign.wordpress.com/printtheme) for more details. I also posted a follow-up of the [theme progress](https://paulfosterdesign.wordpress.com/2011/07/28/print-theme-update/) and the lessons learned during its development, submission and release. All Print Theme posts are tagged [#printtheme](https://paulfosterdesign.wordpress.com/tag/printtheme/).
-
-Print Theme can be found [on the Tumblr Theme Garden](https://www.tumblr.com/theme/30839).
-
-Update: I have [migrated from Tumblr](https://paulfosterdesign.wordpress.com/2016/12/17/paulfosterdesign-on-wordpress-com/) to a WordPress.com blog of the same username.
+I also posted a follow-up of the [theme progress](https://paulfosterdesign.wordpress.com/2011/07/28/print-theme-update/) and the lessons learned during its development, submission and release. All [Print Theme](https://paulfosterdesign.wordpress.com/printtheme) posts are tagged [#printtheme](https://paulfosterdesign.wordpress.com/tag/printtheme/). 
