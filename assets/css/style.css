@@ -309,6 +309,11 @@ dt {
     line-height: 1
 }
 
+/* Limit pagination button width */
+.wrap-pagination li:only-child {
+  max-width: calc(50% - .5rem);
+}
+
 .codepen {
     font-family: monospace, monospace;
 }
