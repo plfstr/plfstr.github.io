@@ -15,7 +15,7 @@ layout: default
 {% endfor %}
 
 <nav>
-<ul class="list--nostyles flex--row flex--spacebetween flex--gapped">
+<ul class="wrap-pagination list--nostyles flex--row flex--spacebetween flex--gapped">
     {% if paginator.next_page %}
     <li><a class="button" href="{{ paginator.next_page_path }}" rel="prev">Earlier Posts</a></li>
     {% endif %}
