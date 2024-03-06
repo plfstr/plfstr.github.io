@@ -159,7 +159,7 @@ article a[href*="//"]:not([href*="paulfosterdesign.co.uk/"]):after {
     color: currentColor
 }
 
-@media (hover: none), print {
+@media (any-hover: none) {
     abbr[title]::after {
       content: "(" attr(title) ")";
     }
@@ -367,10 +367,4 @@ dt {
 
 .copyright {
     text-align: end;
-}
-
-@media print, (any-hover: none) {
-    abbr[title]::after {
-      content: "(" attr(title) ")";
-    }
 }
