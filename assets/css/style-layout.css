@@ -56,6 +56,10 @@ h1:before {
 }
 
 @media (min-width: 1200px) {
+	.link__nav--home {
+		font-size: 2.25rem;
+	}
+	
 	@supports (scale: 1.1) {
 	    .wrap-logo--link {
 	        scale: 1.1;
