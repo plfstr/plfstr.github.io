@@ -159,6 +159,12 @@ article a[href*="//"]:not([href*="paulfosterdesign.co.uk/"]):after {
     color: currentColor
 }
 
+@media (hover: none), print {
+    abbr[title]::after {
+      content: "(" attr(title) ")";
+    }
+}
+
 code,pre,kbd {
     padding: 0.0625rem .125rem;
     font-family: monospace, monospace;
@@ -361,50 +367,4 @@ dt {
 
 .copyright {
     text-align: end;
-}
-
-@media (hover: none), print {
-    abbr[title]::after {
-      content: "(" attr(title) ")";
-    }
-}
-
-@media print {
-    *, * :before, * :after, ::marker {
-        color: initial !important;
-        background: none !important;
-        border-color: currentColor !important;
-        box-shadow: none !important;
-        max-width: initial !important;
-    }
-
-    nav,
-    .button,
-    .wrap-banner,
-    .wrap-logo,
-    .wrap-sidebar,
-    #socialicons,
-    #syndication {
-        display: none;
-    }
-    
-    img, figure, pre {
-        border: 0.0625rem solid currentColor;
-        page-break-inside: avoid;
-    }
-    
-    code {
-        white-space: pre-wrap;
-        font-size: smaller;
-    }
-
-    a[href*="/"]:after {
-        content: "[" attr(href) "]" !important;
-        display: inline-block;
-        width: auto !important;
-        margin-left: .5em !important;
-        margin-inline-start: .5em !important;
-        word-wrap: break;
-        white-space: normal;
-    }
 }
