@@ -368,3 +368,9 @@ dt {
 .copyright {
     text-align: end;
 }
+
+@media print, (any-hover: none) {
+    abbr[title]::after {
+      content: "(" attr(title) ")";
+    }
+}

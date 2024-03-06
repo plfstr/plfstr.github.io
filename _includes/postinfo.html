@@ -1,5 +1,6 @@
 {% if page.date %}
 <p><small>Posted <time class="dt-published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%d/%m/%Y" }}</time></small></p>
+<p><small>Respond to this post via <a href="https://indieweb.org/webmentions">webmention</a> from your own site!</small></p>
 {% endif %}
 {% if page.syndicated %}
 <section id="syndication">

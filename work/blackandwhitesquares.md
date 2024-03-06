@@ -9,14 +9,10 @@ Shortname: b&ws
 
 **If it’s black, white and square-like it has a place here.**
 
-In 2009 I launched blackandwhitesquares.com - a site dedicated to QR (Quick Response) and 2D barcodes - showing the best of what they can do. 
+In 2009 I launched blackandwhitesquares.com - a site dedicated to QR (Quick Response) and 2D barcodes - showing the best of what they can do.
 
-Two posts featured under Tumblr’s very popular and curated [#tech tag](https://www.tumblr.com/tagged/tech), generating great traffic and quadrupling follower count. 
+The site was a usefull testbed for SEO techniques, experience copywriting, producing and sourcing content around marketing, business and technology. Two posts featured under Tumblr’s very popular and curated #tech tag, generating great traffic and quadrupling follower count. B&WS content grew to 450+ posts before I archived the site in 2017.
 
-B&WS content grew to 450+ posts before I archived the site in 2017.
-
-The site was also a usefull testbed for SEO techniques, experience copywriting, producing and sourcing content around marketing, business and technology.
-
-B&WS was built using a custom designed, self-built theme, on the Tumblr platform. 
+B&WS was built using a custom designed self-built theme, on the Tumblr platform. 
 
 Visit [blackandwhitesquares.com](https://blackandwhitesquares.com/) and see the result.
