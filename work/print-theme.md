@@ -13,10 +13,10 @@ I noticed that many Tumblr themes sacrificed quality markup and accessibility fo
 ## Features
 
 *	HTML5 semantic markup
+*	Multi-language support
 *	Typographic grid
 *	Custom CSS support
-*	Multi-language support
-*	@media queries to handle print styles
+*	`@media print` styles
 
 For more info about the themes features and customisation options available, see my [Print Theme page](https://paulfosterdesign.wordpress.com/printtheme) for more details. Print Theme can be found [on the Tumblr Theme Garden](https://www.tumblr.com/theme/30839).
 
