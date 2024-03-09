@@ -16,7 +16,7 @@ A web search and lack of a results later... [HTML Tags Memory Test](https://code
 
 ## HTML elements to test you
 
-{% include codepen.html codepen="zYqQeRw" %}
+{% include codepen.html codepen="zYqQeRw" height="350" %}
 
 The app is built with plain JavaScript, the recalled total counts down as you make your HTML element guesses, which join a list of correct answers. 
 
