@@ -266,7 +266,7 @@ dt {
 
 .button {
     display: inline-block;
-    padding: .5em;
+    padding: .375em;
     border: 0;
     font-size: 1.5rem;
     line-height: 1;
