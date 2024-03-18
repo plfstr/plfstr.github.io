@@ -3,31 +3,34 @@ article :is(h2, p) {
     margin-bottom: 1rem
 }
 
-.wrap-content {
-	grid-column: 1/span 2;
-    grid-row: auto;
-    margin-top: 0;
-}
-
-.wrap-all {
-    width: 100%;
-}
-
-.grid--projects {
-    grid-column: 1/span 2;
-    display: grid;
-    grid-template: 1fr / 1fr 1fr 1fr;
-    grid-gap: 1rem;
-    gap: 1rem;
-    margin-bottom: 0;    
-    @media (width >= 1050px) {
-        grid-gap: 2.5rem;
-        gap: 2.5rem;
-        margin-inline: -1.26rem;
-    }
+@supports (display: grid) {
+	.wrap-content {
+	    grid-column: 1/span 2;
+	    grid-row: auto;
+	    margin-top: 0;
+	}
+	
+	.wrap-all {
+	    width: 100%;
+	}
+	
+	.grid--projects {
+	    grid-column: 1/span 2;
+	    display: grid;
+	    grid-template: 1fr / 1fr 1fr 1fr;
+	    grid-gap: 1rem;
+	    gap: 1rem;
+	    margin-bottom: 0;    
+	    @media (width >= 1050px) {
+	        grid-gap: 2.5rem;
+	        gap: 2.5rem;
+	        margin-inline: -1.26rem;
+	    }
+	}
 }
 
 .figure--hover {
+    display: inline-block;
     position: relative;
     margin: 0;
     padding: 0;
