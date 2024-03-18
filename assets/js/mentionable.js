@@ -183,6 +183,9 @@ class Mentionable extends Component {
             msg: "",
             mentions: []
         }
+	if (this.state.lazyload === false && "connection" in navigator) {
+            this.state.lazyload = navigator.connection.saveData;
+        }
     }
 
     static getDerivedStateFromError(error) {
