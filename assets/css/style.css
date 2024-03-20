@@ -278,6 +278,16 @@ dt {
     border-radius: .125rem
 }
 
+.button[rel="prev"]:before {
+    content: "\21E6";
+    margin-inline-end: .125em
+}
+
+.button[rel="next"]:after {
+    content: "\21E8";
+    margin-inline-start: .125em
+}
+
 .icon {
     width: 1.5em;
     height: 1.5em;
