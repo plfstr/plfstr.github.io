@@ -27,35 +27,37 @@ article :is(h2, p) {
     }
 }
 
-.figure--hover {
-    position: relative;
-    margin: 0;
-    padding: 0;
-    transition: transform .1s ease;
-}
-
-.figure--hover figcaption {
-    position: absolute;
-    inset: 0;
-    padding: 5.5rem .5rem;
-    font-size: 1.375em;
-    line-height: 1;
-    text-align: center;
-    font-weight: bold;
-    opacity: 0;
-    color: var(--col-body, #fff);
-    background-color: rgba(35, 120, 138, 0.8);
-    transition: opacity 0.1s ease;
-    hyphens: auto;
-    z-index: 77;
-}
-
-.figure--hover:hover figcaption, .figure--hover:focus figcaption {
-    opacity: 1;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-    .figure--hover:is(:hover, :focus) {
-        transform: scale(1.05);
-    }
+@media (any-hover: hover) {
+	.figure--hover {
+	    position: relative;
+	    margin: 0;
+	    padding: 0;
+	    transition: transform .1s ease;
+	}
+	
+	.figure--hover figcaption {
+	    position: absolute;
+	    inset: 0;
+	    padding: 5.5rem .5rem;
+	    font-size: 1.375em;
+	    line-height: 1;
+	    text-align: center;
+	    font-weight: bold;
+	    opacity: 0;
+	    color: var(--col-body, #fff);
+	    background-color: rgba(35, 120, 138, 0.8);
+	    transition: opacity 0.1s ease;
+	    hyphens: auto;
+	    z-index: 77;
+	}
+	
+	.figure--hover:hover figcaption, .figure--hover:focus figcaption {
+	    opacity: 1;
+	}
+	
+	@media (prefers-reduced-motion: no-preference) {
+	    .figure--hover:is(:hover, :focus) {
+	        transform: scale(1.05);
+	    }
+	}
 }
