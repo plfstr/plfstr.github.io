@@ -112,6 +112,7 @@ h1:before {
 }
 
 .wrap-preview p {
+    margin: .75rem 0 1.5rem;
     text-wrap: pretty
 }
 
