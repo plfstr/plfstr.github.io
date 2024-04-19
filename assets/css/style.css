@@ -200,7 +200,11 @@ dt {
     font-style: italic
 }
 
-::selection,
+::selection {
+    color: var(--col-primary);
+    background-color: var(--col-highlight);
+}
+
 ::target-text {
     color: var(--col-primary);
     background-color: var(--col-highlight);
