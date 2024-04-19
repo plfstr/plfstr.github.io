@@ -200,7 +200,12 @@ dt {
     font-style: italic
 }
 
-:where(::selection, ::target-text) {
+::selection {
+    color: var(--col-primary);
+    background-color: var(--col-highlight);
+}
+
+::target-text {
     color: var(--col-primary);
     background-color: var(--col-highlight);
 }
