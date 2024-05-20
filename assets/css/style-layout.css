@@ -1,3 +1,11 @@
+@view-transition {
+  navigation: auto;
+}
+
+.figure__featimg {
+  view-transition-name: thumb-to-hero;
+}
+
 body {
     background-attachment: fixed;
 }
