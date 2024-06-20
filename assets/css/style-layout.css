@@ -9,7 +9,6 @@ h1,h2 {
 h1:before {
     content: "/";
     margin-inline: -.125em .075em;
-    vertical-align: text-top;
     font-weight: 700;
     color: var(--col-highlight)
 }
