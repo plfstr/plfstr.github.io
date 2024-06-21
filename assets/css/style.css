@@ -1,19 +1,27 @@
 :root {
     color-scheme: light dark;
-    --col-body: #fafafa;
-    --col-primary: #222a55;
+    --col-body: light-dark(#fafafa, #ddd);
+    --col-primary: light-dark(#222a55, #1d2342);
+    --col-highlight: light-dark(#98fdff, #46c4cf);
     --col-secondary: rgba(0,10,0,.2);
-    --col-highlight: #98fdff;
     --col-lowlight: #787e8b;
     --font-body: sans-serif;
     --font-hero: "Segoe UI", Tahoma, Arial, sans-serif;
 }
 
-@media only screen and (prefers-color-scheme: dark) {
+@supports not (color: light-dark(blue, green)) {
     :root {
-        --col-body: #ddd;
-        --col-primary: #1d2342;
-        --col-highlight: #46c4cf;
+        --col-body: #fafafa;
+        --col-primary: #222a55;
+        --col-highlight: #98fdff;
+    }
+    
+    @media only screen and (prefers-color-scheme: dark) {
+        :root {
+            --col-body: #ddd;
+            --col-primary: #1d2342;
+            --col-highlight: #46c4cf;
+        }
     }
 }
 
