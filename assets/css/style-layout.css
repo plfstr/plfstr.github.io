@@ -1,5 +1,6 @@
 body {
     background-attachment: fixed;
+    background-image: radial-gradient(at 0 0, var(--col-highlight) 0, var(--col-primary) 50%);
 }
 
 h1,h2 {
