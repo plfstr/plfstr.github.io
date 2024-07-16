@@ -40,6 +40,8 @@ HTML Tags Memory Test has featured in a number of different articles and newslet
 + [10 HTML Elements You May Have Never Heard Of](https://dev.to/jenndiaz/10-html-elements-you-may-have-never-heard-of-2bhb) by Jennifer Grenier Diaz.
 + [Web Weekly #96](https://www.stefanjudis.com/blog/web-weekly-96/), highlighting the new search tag in a newsletter by Stefan Judis.
 + [Frontend Focus Issue #614](https://frontendfoc.us/issues/614). Subject line: ‘Test how many HTML tags you know.’
++ [Posted on Hacker News](https://news.ycombinator.com/item?id=40968520), reaching #19 on the front page and adding 20k+ more views to the pen.
++ Featured in CodePen's front-page picks.
   
 ## HTML Tags Recalled
 
