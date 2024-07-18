@@ -3,7 +3,7 @@ title: HTML Memory Test
 description: Test your memory and see how many HTML elements you can recall? I built an app to test you
 date: 2020-12-17
 source: https://codepen.io/plfstr/pen/zYqQeRw
-tags: [html, codepen, app, js, game]
+tags: [html, codepen, pickedpen, app, js, game]
 ---
 
 This tweet passed by in [my Twitter](https://twitter.com/plfstr) feed one day:
