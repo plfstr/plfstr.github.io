@@ -10,7 +10,7 @@ This tweet passed by in [my Twitter](https://twitter.com/plfstr) feed one day:
 
 > There are, like, 110 unique tags in HTML5. Do people seriously memorize them all? Because I haven’t. I wrote about some tactics to improve semantics, whether you've memorized all the tags or not - featuring my recent discovery: the `<meter>` element! – [Leslie Cohn-Wein](https://twitter.com/lesliecdubs/status/1305503826166927360?s=20) (@lesliecdubs)
 
-I thought to myself, <q>That's a lot to remember. I wonder if there's a game that tests you?</q>
+I thought to myself, _That's a lot to remember. I wonder if there's a game that tests you?_
 
 A web search and lack of a results later... [HTML Tags Memory Test](https://codepen.io/plfstr/full/zYqQeRw) was created! 
 
