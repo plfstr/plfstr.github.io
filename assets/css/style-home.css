@@ -41,7 +41,7 @@ article :is(h2, p) {
 	.figure--hover figcaption {
 	    position: absolute;
 	    inset: 0;
-	    padding: 5.5rem .5rem;
+	    align-content: center;
 	    font-size: 1.375em;
 	    line-height: 1;
 	    text-align: center;
@@ -52,6 +52,12 @@ article :is(h2, p) {
 	    transition: opacity 0.1s ease;
 	    hyphens: auto;
 	    z-index: 77;
+	}
+
+	@supports not (named-feature(align-content-on-display-block)) {
+		.figure--hover figcaption {
+			padding: 5.5rem .5rem;
+		}
 	}
 	
 	.figure--hover:hover figcaption, .figure--hover:focus figcaption {
