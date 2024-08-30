@@ -62,30 +62,30 @@ h1:before {
 		font-size: 2.25rem;
 	}
 	
-	@supports (scale: 1.1) {
+	@supports (scale: 1.1) and (selector(&)) {
 	    .wrap-logo--link {
 	        scale: 1.1;
 	    }
 		
 	    .figure__featimg {
 	        position: relative;
-	        box-shadow: none
-	    }
+	        box-shadow: none;
+		
+		&:after {
+			content: "";
+			position: absolute;
+			display: block;
+			inset: 0;
+			z-index: -1;
+			translate: 12% 30%;
+			transform: skew(-15deg);
+			scale: 1 0.5;
+			background-color: var(--col-secondary);
+	    	}
 	
-	    .figure__featimg:after {
-	        content: "";
-	        position: absolute;
-	        display: block;
-	        inset: 0;
-	        z-index: -1;
-	        translate: 12% 30%;
-		transform: skew(-15deg);
-		scale: 1 0.5;
-	        background-color: var(--col-secondary)
-	    }
-	
-	    .figure__featimg--portrait:after {
-	        translate: 24% 30%;
+		&.figure__featimg--portrait:after {
+		    translate: 24% 30%;
+		}
 	    }
 	}
 }
