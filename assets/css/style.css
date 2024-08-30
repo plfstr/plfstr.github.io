@@ -278,10 +278,11 @@ dt {
 }
 
 .button {
-    display: inline-block;
+    display: inline-flex;
     padding: .5em;
     border: 0;
     font-size: 1.5rem;
+    text-align: center;
     line-height: 1;
     color: var(--col-highlight);
     background-color: var(--col-secondary);
@@ -289,6 +290,18 @@ dt {
     -webkit-appearance: none;
     appearance: none;
     border-radius: .125rem
+}
+
+.button[rel="prev"]:before {
+    content: "\21E6";
+    content: "\21E6" / "Left arrow";
+    margin-inline-end: .125em
+}
+
+.button[rel="next"]:after {
+    content: "\21E8";
+    content: "\21E8" / "Right arrow";
+    margin-inline-start: .125em
 }
 
 .icon {
