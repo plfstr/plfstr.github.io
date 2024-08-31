@@ -343,7 +343,7 @@ dt {
     container-type: inline-size
 }
 
-@container (width > 600px) {
+@container (width >= 600px) {
     .figure__featimg--portrait {
         max-width: 22.5rem;
         float: inline-end;
