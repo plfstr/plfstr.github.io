@@ -81,10 +81,10 @@ h1:before {
 			transform: skew(-15deg);
 			scale: 1 0.5;
 			background-color: var(--col-secondary);
-	    	}
 	
-		&.figure__featimg--portrait:after {
-		    translate: 24% 30%;
+			&.figure__featimg--portrait {
+			    translate: 24% 30%;
+			}
 		}
 	    }
 	}
