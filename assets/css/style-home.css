@@ -41,10 +41,11 @@ article :is(h2, p) {
 	.figure--hover figcaption {
 	    position: absolute;
 	    inset: 0;
-	    padding: 5.5rem .5rem;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
 	    font-size: 1.375em;
 	    line-height: 1;
-	    text-align: center;
 	    font-weight: bold;
 	    opacity: 0;
 	    color: var(--col-body, #fff);
