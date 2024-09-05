@@ -126,17 +126,19 @@ ul, ol {
 }
 
 ul {
-    list-style-type: square
+    list-style-type: square;
+    list-style-type: toggle(square, circle);
+}
+
+@supports not (list-style-type: toggle(square, circle)) {
+    ul ul {
+        list-style-type: circle;
+        margin-bottom: 0;
+    }
 }
 
 ol {
     list-style-type: upper-alpha
-}
-
-ul ul, 
-#syndication ul {
-    list-style-type: circle;
-    margin-bottom: 0;
 }
 
 ::marker {
@@ -379,6 +381,11 @@ dt {
 :is(h2, h3) em {
     font-size: .875em;
     font-family: var(--font-body);
+}
+
+#syndication ul {
+    list-style-type: circle;
+    margin-bottom: 0;
 }
 
 .list--cvskills {
