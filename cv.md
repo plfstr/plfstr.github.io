@@ -7,7 +7,9 @@ In a four year professional career, I have worked for three household name e-com
 
 I want to form a key part of a team and actively participate in moving a company forward through great creative, technical improvement and enhanced user experience. Efficiency, clean semantic markup and accessibility are my benchmarks. 
 
-## Career Break - Personal Projects
+## Experience
+
+### Career Break - Personal Projects
 
 **[paulfosterdesign.co.uk](/), [blackandwhitesquares.com](https://blackandwhitesquares.com), [Tumblr Print Theme](https://www.tumblr.com/theme/30839)**
 
@@ -25,7 +27,7 @@ I want to form a key part of a team and actively participate in moving a company
 *	[404 page](/404page/) featured in numerous collections of creative 404s.
 
 
-## Thomas Cook - Web Designer _9 week contract role_
+### Thomas Cook - Web Designer _9 week contract role_
 
 **thomascook.com, directholidays.co.uk, hotels4u.co.uk**
 
@@ -34,7 +36,7 @@ I want to form a key part of a team and actively participate in moving a company
 *	Troubleshooting cosmetic IE 6 (_yes_) specific issues with the Club 18-30 site after a recent redevelopment.
 
 
-## GAME Group - Online Designer _14 months_
+### GAME Group - Online Designer _14 months_
 
 **game.co.uk, gamestation.co.uk, gameplay.co.uk**
 
@@ -44,7 +46,7 @@ I want to form a key part of a team and actively participate in moving a company
 *	Creation of affiliate banner templates and digital merchandising for PPC campaigns.
 
 
-## Ideal Shopping Direct - Web Designer _29 months_
+### Ideal Shopping Direct - Web Designer _29 months_
 
 **[idealworld.tv](https://en.wikipedia.org/wiki/Ideal_World), createandcraft.com**
 
