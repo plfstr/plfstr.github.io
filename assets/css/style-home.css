@@ -48,7 +48,8 @@ article :is(h2, p) {
 	    font-weight: bold;
 	    opacity: 0;
 	    color: var(--col-body, #fff);
-	    background-color: rgba(35, 120, 138, 0.8);
+	    background-color: rgba(48, 134, 152, 0.8);
+	    backdrop-filter: blur(.1rem);
 	    transition: opacity 0.1s ease;
 	    hyphens: auto;
 	    z-index: 77;
