@@ -16,6 +16,8 @@ I got into web design in 2006 when I finished university and was looking to star
 
 I started out on Notepad with W3Schools (i know right) with the very basics and built up from there. My web presence began with a [Mr Site](//uk.mrsite.com/) page, a custom header image and tweaking a template. When I started my first job I was still building pages in Dreamweaver using tables for layout! It wasn't until 2007 that I began learning CSS, uploaded my own site and here this is the forth major overhaul from then.
 
+![First self-coded portfolio homepage](/assets/images/pfd-v1.jpg)
+
 I've created several side projects that I approached initially as experiments: ‘[Print Theme](/work/print-theme/)’, for the Tumblr blog platform to see if I could template. [Blackandwhitesquares](/work/blackandwhitesquares/) was initially an investment in a domain centred around a new technology, which I later used as an opportunity to try blogging and SEO to a wider audience. My CodePen demos are just me exploring [what can be done with CSS](/blog/hop-over-navigation/) unbound by the constraints of a project, some have been [quite popular](/blog/excerpt-peek/). Lastly, ‘[Pi Prompts](/blog/pi-prompts/)’ came from a need I had and thought it could be of help to others.
 
 ## The opportunities today
