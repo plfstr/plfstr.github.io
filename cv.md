@@ -31,9 +31,8 @@ I want to form a key part of a team and actively participate in moving a company
 
 **thomascook.com, directholidays.co.uk, hotels4u.co.uk**
 
-*	Primary duties email marketing material for Cruise Thomas Cook. 
+*	Email marketing design and coding for Thomas Cook Cruises and related brands. 
 *	Creation of merchandising material for the numerous Thomas Cook brands.
-*	Troubleshooting cosmetic IE 6 (_yes_) specific issues with the Club 18-30 site after a recent redevelopment.
 
 
 ### GAME Group - Online Designer _14 months_
