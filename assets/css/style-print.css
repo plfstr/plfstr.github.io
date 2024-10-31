@@ -7,6 +7,13 @@ nav,
     display: none;
 }
 
+@page {
+    @top-left {
+        content: "www.paulfosterdesign.co.uk";
+        font-size: small;
+    }
+}
+
 body {
     font: normal 100%/1.5 Tahoma, Verdana, sans-serif;
 }
