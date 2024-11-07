@@ -383,7 +383,7 @@ dt {
 
 .list--cvskills {
     content-visibility: auto;
-    contain-intrinsic-size: auto calc(100vw - 3rem) auto 5rem;
+    contain-intrinsic-size: auto 100cqh auto 3rlh;
 }
 
 .list--cvskills li {
