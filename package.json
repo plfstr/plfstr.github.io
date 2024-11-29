@@ -2,7 +2,8 @@
     "name": "paulfosterdesign",
     "version": "1.0.0",
     "dependencies": {
-        "htm": "/developit/htm/blob/master/src/integrations/preact"
+        "htm": "developit/htm/blob/master/src/integrations/preact",
+        "mentionable": "plfstr/mentionable"
     },
     "private": true
 }
