@@ -377,8 +377,9 @@ dt {
 }
 
 :is(h2, h3) em {
-    font-size: .875em;
     font-family: var(--font-body);
+    font-size: .875em;
+    font-weight: normal;
 }
 
 .list--cvskills {
