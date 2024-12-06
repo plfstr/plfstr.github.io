@@ -3,7 +3,7 @@
 }
 
 .figure__featimg {
-  view-transition-name: thumb-to-hero;
+  view-transition-name: auto;
 }
 
 body {
