@@ -243,7 +243,7 @@ class Mentionable extends Component {
     }
 
     async _fetchMentions() {
-        return await fetch(`https://webmention.io/api/mentions.jf2?target=${encodeURIComponent(this.thisPost)}`).then(
+        return await fetch(`https://webmention.io/api/mentions.jf2?target=${encodeURIComponent(this.thisPost)}`, {signal: AbortSignal.timeout(10000)}).then(
             response => response.json()
         ).then(
             data => {
