@@ -22,7 +22,7 @@ I want to form a key part of a team and actively participate in moving a company
 	+ [CSS 1K](/blog/css1k-on-codepen/) became the basis of a CodePen blog post about this popular coding challenge, using 1Kb of CSS. 
 	+ [Hop Over Notification](/blog/10k-hop-over-views/) CSS keyframe effect has 65,000+ views, 200+ likes.
 	+ [HTML Memory Test](/blog/html-elements-test/) went [kind-of viral](/blog/html-memory-tested/) in the web community, has featured [in several newsletters](/blog/html-memory-tested/#:~:text=Web%20Weekly%20%2396,tags%20you%20know.%E2%80%99) and [amassed 100,000+ views](/blog/100k-html-tests/).
-*	[Kirby CMS CodePen extension](/blog/kirbytag-codepen/) featured on getkirby-plugins.com, a quality resource of Kirby 2 code plugins.
+*	[Kirby CodePen extension](/blog/kirbytag-codepen/) featured on getkirby-plugins.com.
 *	Contributed to open source projects [on GitHub](https://github.com/plfstr) (Arctic Code Vault Contributor) and participated in [user testing](/blog/council-website-testing/) of the local council website redesign.
 *	[404 page](/404page/) featured in numerous collections of creative 404s.
 
