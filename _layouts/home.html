@@ -71,7 +71,7 @@
                         {% if latestpost.thumb %}
                             <a href="{{ latestpost.url }}" class="wrap-preview--image" tabindex="-1">
                                 <div class="figure__featimg">
-                                    <img src="{{ latestpost.thumb }}" alt="{{ latestpost.alt }}" width="320" height="220" loading="lazy">
+                                    <img src="{{ latestpost.thumb }}" alt="{{ latestpost.alt }}" width="320" height="220" loading="lazy" fetchpriority="low">
                                 </div>
                             </a>
                         {% endif %}
