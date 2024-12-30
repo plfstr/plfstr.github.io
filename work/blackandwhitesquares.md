@@ -9,7 +9,7 @@ Shortname: b&ws
 
 **If it’s black, white and square-like it has a place here.**
 
-In 2009 I launched blackandwhitesquares.com (B&amp;WS) - a site dedicated to QR (Quick Response) and 2D barcodes - showing the best of what they can do.
+In 2009 I launched blackandwhite<wbr />squares.com (B&amp;WS) - a site dedicated to QR (Quick Response) and 2D barcodes - showing the best of what they can do.
 
 The site was a usefull testbed for SEO techniques, experience copywriting, producing and sourcing content around marketing, business and technology. B&WS was built using a custom designed, self-built theme, on the Tumblr platform. 
 
