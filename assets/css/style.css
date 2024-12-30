@@ -327,7 +327,9 @@ dt {
 
 .wrap-preview, .codepen, #mentionable {
     margin-bottom: 1.5rem;
+    margin-bottom: 1rlh;
     padding: .75rem;
+    padding: .5rlh;
     border-radius: .125rem;
     background-color: var(--col-secondary);
 }
