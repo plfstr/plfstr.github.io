@@ -39,12 +39,14 @@
 {% if page.thumb %}
 <meta property="og:image" content="{{ page.thumb }}">
 <meta property="og:image:alt" content="{{ page.alt | }}">
+<meta property="og:image:width" content="320">
+<meta property="og:image:height" content="220">
 {% else %}
 <meta property="og:image" content="https://www.paulfosterdesign.co.uk/assets/images/pfd-hero-default.jpg">
 <meta property="og:image:alt" content="PF logo">
-{% endif %}
 <meta property="og:image:width" content="400">
 <meta property="og:image:height" content="400">
+{% endif %}
 {% for tag in page.tags %}
 <meta property="og:article:tag" content="{{ tag }}">
 {% endfor %}
