@@ -325,6 +325,10 @@ dt {
     display: none
 }
 
+.wrap-banner--nav a {
+    text-shadow: .1em .08em 0 rgba(0,0,0,.1)
+}
+
 .wrap-preview, .codepen, #mentionable {
     margin-bottom: 1.5rem;
     padding: .75rem;
