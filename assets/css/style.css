@@ -326,7 +326,7 @@ dt {
 }
 
 .wrap-banner--nav a {
-    text-shadow: 3px 3px 0 rgba(0,0,0,.1)
+    text-shadow: .1em .08em 0 rgba(0,0,0,.1)
 }
 
 .wrap-preview, .codepen, #mentionable {
