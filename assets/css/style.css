@@ -347,6 +347,7 @@ dt {
 
 .codepen {
     font-family: monospace, monospace;
+    height: attr(data-height px, 300px);
 }
 
 .cp_embed_wrapper,
