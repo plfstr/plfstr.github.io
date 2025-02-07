@@ -6,7 +6,7 @@ source: https://codepen.io/plfstr/pen/zYqQeRw
 tags: [html, codepen, pickedpen, app, js, game]
 ---
 
-This tweet passed by in [my Twitter](https://twitter.com/plfstr) feed one day:
+This tweet passed by in my Twitter feed one day:
 
 > There are, like, 110 unique tags in HTML5. Do people seriously memorize them all? Because I haven’t. I wrote about some tactics to improve semantics, whether you've memorized all the tags or not - featuring my recent discovery: the `<meter>` element! – [Leslie Cohn-Wein](https://twitter.com/lesliecdubs/status/1305503826166927360?s=20) (@lesliecdubs)
 
