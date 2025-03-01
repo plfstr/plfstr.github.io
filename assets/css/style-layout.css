@@ -48,7 +48,22 @@ h1:before {
 	
 	.wrap-logo--link {
 	    margin: 0;
-	    transform: translate(1rem, 3.5rem) rotate(-18deg) scale(1.3)
+	    transform: translate(1rem, 3.5rem) rotate(-18deg) scale(1.3);
+		@supports (animation-timeline: scroll(root block)) {
+		    animation-timeline: scroll(root block);
+		    animation-name: logoturn;
+		    animation-duration: auto;
+		    animation-timing-function: ease;
+		    animation-range: exit 0% exit 100%;
+		  }
+	}
+	@keyframes logoturn {
+	  0% {
+	    transform: translate(1rem, 3.5rem) rotate(-18deg) scale(1.3);
+	  }
+	  100% {
+	    transform: translate(1rem, 3.5rem) rotate(0deg) scale(1);
+	  }
 	}
 }
 
