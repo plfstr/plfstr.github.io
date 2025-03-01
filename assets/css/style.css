@@ -230,11 +230,6 @@ dt {
     list-style-type: ""
 }
 
-.list--navigation {
-    font-size: 1.5em;
-    line-height: 1.333;
-}
-
 .flex--row {
     display: flex;
     flex-flow: row nowrap;
@@ -382,6 +377,12 @@ dt {
     font-family: var(--font-body);
     font-size: .875em;
     font-weight: normal;
+}
+
+.list--navigation li {
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-bottom: .5rem;
 }
 
 .list--cvskills {
