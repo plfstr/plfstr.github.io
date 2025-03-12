@@ -282,6 +282,12 @@ dt {
     border-radius: .125rem
 }
 
+.button-hero:after {
+    content: "\21E8";
+    content: "\21E8" / "Right arrow";
+    margin-inline-start: .125em
+}
+
 .button[rel="prev"]:before {
     content: "\21E6";
     content: "\21E6" / "Left arrow";
