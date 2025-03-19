@@ -1,6 +1,11 @@
 <meta charset="utf-8">
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; script-src 'self' https://static.codepen.io https://public.codepenassets.com; img-src 'self' https://shots.codepen.io; child-src https://codepen.io; manifest-src 'self'; connect-src https://webmention.io">
 <meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
+{% if paginator.page %}
+<title>{{ page.title }} {{ paginator.page }}/{{ paginator.total_posts }} - paulfosterdesign.co.uk</title>
+{% else %}
+<title>{{ page.title }} - paulfosterdesign.co.uk</title>
+{% endif %}
 <meta name="robots" content="noai,noimageai,noml">
 <title>{{ page.title }} - paulfosterdesign.co.uk</title>
 <link rel="stylesheet" href="/assets/css/style-print.css" media="print">
