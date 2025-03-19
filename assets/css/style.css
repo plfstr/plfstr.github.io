@@ -1,23 +1,34 @@
 :root {
     color-scheme: light dark;
-    --col-body: #fafafa;
-    --col-primary: #222a55;
+    --col-body: light-dark(#fafafa, #ddd);
+    --col-primary: light-dark(#222a55, #1d2342);
+    --col-highlight: light-dark(#98fdff, #46c4cf);
     --col-secondary: rgba(0,10,0,.2);
-    --col-highlight: #98fdff;
     --col-lowlight: #787e8b;
-    --font-body: "Segoe UI", Tahoma, Arial, sans-serif;
+    --font-body: sans-serif;
+    --font-hero: "Segoe UI", Tahoma, Arial, sans-serif;
 }
 
-@media only screen and (prefers-color-scheme: dark) {
+@supports not (color: light-dark(blue, green)) {
     :root {
-        --col-body: #ddd;
-        --col-primary: #1d2342;
-        --col-highlight: #46c4cf;
+        --col-body: #fafafa;
+        --col-primary: #222a55;
+        --col-highlight: #98fdff;
+    }
+    
+    @media only screen and (prefers-color-scheme: dark) {
+        :root {
+            --col-body: #ddd;
+            --col-primary: #1d2342;
+            --col-highlight: #46c4cf;
+        }
     }
 }
 
 html {
-    box-sizing: border-box
+    box-sizing: border-box;
+    scrollbar-color: var(--col-lowlight) var(--col-secondary);
+    scrollbar-width: thin;
 }
 
 *,* :before,* :after {
@@ -63,15 +74,11 @@ body {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     text-size-adjust: 100%;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     color: var(--col-body, #eee);
     background: var(--col-primary, #242a48);
     background-repeat: no-repeat;
     background-image: linear-gradient(162deg, var(--col-highlight), 10rem, var(--col-primary) 30rem);
     -ms-overflow-style: -ms-autohiding-scrollbar;
-    scrollbar-color: var(--col-lowlight) var(--col-secondary);
-    scrollbar-width: thin
 }
 
 @supports (padding: max(0px)) {
@@ -85,23 +92,24 @@ article > * {
 }
 
 h1,h2,h3 {
-    font-weight: 900
+    font-family: var(--font-hero, inherit);
+    font-weight: 900    
 }
 
 h1,.h1 {
-    font-size: 2.5em;
-    line-height: .8;
+    font-size: 2.75rem;
+    line-height: 1;
     overflow-wrap: break-word;
     hyphens: auto
 }
 
 h2,.h2 {
-    font-size: 2em;
+    font-size: 2rem;
     line-height: 1
 }
 
 h3,.h3 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     line-height: 1
 }
 
@@ -123,17 +131,14 @@ ol {
     list-style-type: upper-alpha
 }
 
-ul ul {
+ul ul, 
+#syndication ul {
     list-style-type: circle;
     margin-bottom: 0;
 }
 
 ::marker {
     color: var(--col-highlight, currentColor)
-}
-
-mark,::selection,::target-text {
-    background: var(--col-highlight)
 }
 
 a:link,a:visited {
@@ -155,22 +160,25 @@ a[rel] {
 
 article a[href*="//"]:not([href*="paulfosterdesign.co.uk/"]):after {
     content: " \2794";
+    content: " \2794" / "";
     font-size: initial;
     color: currentColor
 }
 
+@media (any-hover: none) {
+    abbr[title]::after {
+      content: "(" attr(title) ")";
+    }
+}
+
 code,pre,kbd {
-    font-family: monospace, monospace
-}
-
-p>code,kbd {
     padding: 0.0625rem .125rem;
-    border: 0.0625rem solid var(--col-lowlight)
+    font-family: monospace, monospace;
+    font-size: 1rem;
 }
 
-code, kbd {
-    font-size: .95em;
-    font-size: 1.75ex;
+p>code,kbd {    
+    border: 0.0625rem solid var(--col-lowlight)
 }
 
 pre {
@@ -198,6 +206,11 @@ dt {
     font-style: italic
 }
 
+::selection, ::target-text {
+    color: var(--col-primary);
+    background-color: var(--col-highlight);
+}
+
 .invisible {
     clip: rect(1px, 1px, 1px, 1px);
     clip-path: inset(50%);
@@ -213,18 +226,15 @@ dt {
 
 .list--nostyles {
     padding: 0;
-    list-style-type: none
-}
-
-.list--navigation {
-    font-size: 1.5em;
-    line-height: 1.333;
+    list-style-type: none;
+    list-style-type: ""
 }
 
 .flex--row {
     display: flex;
     flex-flow: row nowrap;
-    align-items: center
+    align-items: center;
+    gap: .5rem
 }
 
 .flex--spacebetween {
@@ -256,10 +266,13 @@ dt {
 }
 
 .button {
-    display: inline-block;
+    display: inline-flex;
+    align-items: baseline;
     padding: .5em;
+    text-box: trim-both cap alphabetic;
     border: 0;
     font-size: 1.5rem;
+    text-align: center;
     line-height: 1;
     color: var(--col-highlight);
     background-color: var(--col-secondary);
@@ -267,6 +280,24 @@ dt {
     -webkit-appearance: none;
     appearance: none;
     border-radius: .125rem
+}
+
+.button-hero:after {
+    content: "\21E8";
+    content: "\21E8" / "Right arrow";
+    margin-inline-start: .125em
+}
+
+.button[rel="prev"]:before {
+    content: "\21E6";
+    content: "\21E6" / "Left arrow";
+    margin-inline-end: .125em
+}
+
+.button[rel="next"]:after {
+    content: "\21E8";
+    content: "\21E8" / "Right arrow";
+    margin-inline-start: .125em
 }
 
 .icon {
@@ -280,7 +311,8 @@ dt {
     max-width: 43.75rem
 }
 
-.wrap-logo {
+.wrap-logo--link {
+    display: block;
     margin: 0 25%
 }
 
@@ -288,30 +320,43 @@ dt {
     display: none
 }
 
-.wrap-preview, #mentionable {
+.wrap-banner--nav a {
+    text-shadow: .1em .08em 0 rgba(0,0,0,.1)
+}
+
+.wrap-preview, .codepen, #mentionable {
     margin-bottom: 1.5rem;
-    padding: 1rem .75rem .5rem;
+    padding: .75rem;
     border-radius: .125rem;
     background-color: var(--col-secondary);
 }
 
+.wrap-preview {
+    margin-trim: block;  
+}
+
 .wrap-preview--title {
-    font-size: 2em;
+    margin: 0 0 .75rem;
+    font-size: 2rem;
     line-height: 1
 }
 
+/* Limit pagination button width */
+.wrap-pagination li:only-child {
+  max-width: calc(50% - .5rem);
+}
+
 .codepen {
-    padding: .75rem;
-    background-color: var(--col-secondary);
     font-family: monospace, monospace;
+    @media not (scripting: none) {
+        height: attr(data-height px, 300px);
+    }
 }
 
 .cp_embed_wrapper,
 .figure__featimg {
     display: block;
     max-width: 43.75rem;
-    margin-bottom: 1.5rem;
-    background-color: var(--col-secondary);
     box-shadow: .75rem .75rem 0 rgba(0,0,0,.2)
 }
 
@@ -325,31 +370,30 @@ dt {
     }
 }
 
-@media only screen and (min-width: 481px) {
-    #skills-i-bring + ul {
-        display: flex;
-        flex-flow: row wrap;
-        column-gap: .75rem
-    }
-
-    #skills-i-bring + ul li {
-        flex: 1 45%;
-    }
+.figure--hover {
+    margin: 0 0 1.5rem;
 }
 
-:is(#ideal-world, #game-group, #thomas-cook) + p {
+:is(h2, h3) + p:has(strong):has(+ ul) {
     margin: -1em 0 .75rem;
     color: var(--col-highlight);
 }
 
-h2 em, h3 em {
-    font-size: .875em;
+:is(h2, h3) em {
     font-family: var(--font-body);
+    font-size: .875em;
+    font-weight: normal;
+}
+
+.list--navigation li {
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-bottom: .5rem;
 }
 
 .list--cvskills {
     content-visibility: auto;
-    contain-intrinsic-size: 5rem;
+    contain-intrinsic-size: auto 100cqh auto 3rlh;
 }
 
 .list--cvskills li {
@@ -362,45 +406,6 @@ h2 em, h3 em {
     background-color: var(--col-body);
 }
 
-@media print {
-    *, * :before, * :after, ::marker {
-        color: initial !important;
-        background: none !important;
-        border-color: currentColor !important;
-        box-shadow: none !important;
-        max-width: initial !important;
-    }
-
-    nav,
-    .wrap-logo,
-    .wrap-banner,
-    .wrap-sidebar,
-    #socialicons, 
-    .button {
-        display: none;
-    }
-    
-    img, figure, pre {
-        border: 0.0625rem solid currentColor;
-        page-break-inside: avoid;
-    }
-    
-    code {
-        white-space: pre-wrap;
-        font-size: smaller;
-    }
-
-    a[href*="/"]:after {
-        content: "[" attr(href) "]" !important;
-        display: inline-block;
-        width: auto !important;
-        margin-left: .5em !important;
-        margin-inline-start: .5em !important;
-        word-wrap: break;
-        white-space: normal;
-    }
-
-    abbr[title]:after {
-        content: "[" attr(title) "]"
-    }
+.copyright {
+    text-align: end;
 }

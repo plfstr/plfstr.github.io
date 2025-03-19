@@ -2,7 +2,7 @@
     "name": "paulfosterdesign",
     "version": "1.0.0",
     "dependencies": {
-        "htm": "3.1.1"
+        "htm": "/developit/htm/blob/master/src/integrations/preact"
     },
     "private": true
 }

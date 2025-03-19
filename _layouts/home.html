@@ -3,7 +3,6 @@
 <head>
 {% include meta.html %}
 <link rel="stylesheet" href="/assets/css/style-home.css" media="only screen and (min-width: 800px)">
-<link rel="me" href="https://mastodon.social/@plfstr">
 </head>
 <body>
 
@@ -14,6 +13,8 @@
         <main id="content" class="wrap-content">
 	
             <article class="wrap-all">
+
+		<h1 class="invisible">Welcome</h1>
             	
                 <div class="grid--projects">
                     
@@ -70,7 +71,7 @@
                         {% if latestpost.thumb %}
                             <a href="{{ latestpost.url }}" class="wrap-preview--image" tabindex="-1">
                                 <div class="figure__featimg">
-                                    <img src="{{ latestpost.thumb }}" alt="{{ latestpost.alt }}" width="320" height="220" loading="lazy">
+                                    <img src="{{ latestpost.thumb }}" alt="{{ latestpost.alt }}" width="320" height="220" loading="lazy" fetchpriority="low">
                                 </div>
                             </a>
                         {% endif %}

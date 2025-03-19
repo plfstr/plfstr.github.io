@@ -1,1 +1,7 @@
+User-agent: Arcbot
+User-agent: CCBot
+User-agent: Google-Extended
+User-agent: GPTBot
+Disallow: /
+
 Sitemap: https://www.paulfosterdesign.co.uk/sitemap.xml

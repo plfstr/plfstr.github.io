@@ -32,7 +32,7 @@ Its a simple app but with some complexity behind the scenes.
 - The tapering corners of the pastes stripes are created via a CSS mask with an offset radial gradient.
 - Its a progressive web app (PWA), it works offline. Users should be prompted to install the app to their devices home screen (where supported).
 - The app should display the date in a local format based on users browser language preference settings using the Intl.DateTimeFormat.
-- Moment.js performs the end date and days countdown calculations.
+- ~~Moment.js~~ Day.js performs the end date and days countdown calculations.
 - A \<dialog> element final check when people change their brush, to avoid accidental deletion. 
 - I have added a prompt to install to home screen to ensure the saved date is retained long term. Apple’s anti-tracking measure made local app storage trickier, its [deleted within 7 days](https://webkit.org/tracking-prevention/#7-day-cap-on-all-script-writeable-storage) of inactivity but not for installed apps.
 - The [scheduled notification API](https://developer.chrome.com/docs/web-platform/notification-triggers/) would have given native app like notifications when the end date was reached. However, Chrome announced it will be dropping it. This limits the usefulness of the app as it now cant actively tell users the toothbrush has expired, they have to remember to check it.

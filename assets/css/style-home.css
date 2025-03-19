@@ -1,69 +1,68 @@
-h1, h2, p {
-	margin: 0 0 1.5rem;
-}
-
-.wrap-content {
-	grid-column: 1/span 2;
-    grid-row: auto;
+article :is(h2, p) {
     margin-top: 0;
+    margin-bottom: 1rem
 }
 
-.wrap-all {
-    width: 100%;
-    grid-row-gap: 1.5rem;
-    row-gap: 1.5rem;
+@supports (display: grid) {
+	.wrap-content {
+	    grid-column: 1/span 2;
+	    grid-row: auto;
+	    margin-top: 0;
+	}
+	
+	.wrap-all {
+	    width: 100%;
+	}
+	
+	.grid--projects {
+	    grid-column: 1/span 2;
+	    display: grid;
+	    grid-template: 1fr / 1fr 1fr 1fr;
+	    grid-gap: 1rem;
+	    gap: 1rem;
+	    margin-bottom: 0;    
+	    @media (width >= 1050px) {
+	        grid-gap: 2.5rem;
+	        gap: 2.5rem;
+	        margin-inline: -1.26rem;
+	    }
+	}
 }
 
-.grid--projects {
-    grid-column: 1/span 2;
-    display: grid;
-    grid-template: 1fr / 1fr 1fr 1fr;
-    grid-gap: 1rem;
-    gap: 1rem;
-    margin-bottom: 0;
-}
-
-@media (min-width: 1050px) {
-    .grid--projects {
-        grid-gap: 2.5rem;
-        gap: 2.5rem;
-        margin-inline: -1.26rem;
-    }
-}
-
-.figure--hover {
-    position: relative;
-    margin: 0;
-    padding: 0;
-    transition: transform .1s ease;
-}
-
-.figure--hover figcaption {
-    position: absolute;
-    inset: 0;
-    padding: 5.5rem .5rem;
-    font-size: 1.375em;
-    line-height: 1;
-    text-align: center;
-    font-weight: bold;
-    opacity: 0;
-    color: var(--col-body, #fff);
-    background-color: rgba(35, 120, 138, 0.8);
-    transition: opacity 0.1s ease;
-    hyphens: auto;
-    z-index: 77;
-}
-
-.figure--hover:hover figcaption, .figure--hover:focus figcaption {
-    opacity: 1;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-    .figure--hover:is(:hover, :focus) {
-        transform: scale(1.05);
-    }
-}
-
-.copyright {
-    margin: auto
+@media (any-hover: hover) {
+	.figure--hover {
+      display: inline-block;
+	    position: relative;
+	    margin: 0;
+	    padding: 0;
+	    transition: transform .1s ease;
+	}
+	
+	.figure--hover figcaption {
+	    position: absolute;
+	    inset: 0;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    font-size: 1.375em;
+	    line-height: 1;
+	    font-weight: bold;
+	    opacity: 0;
+	    color: var(--col-body, #fff);
+	    background-color: rgba(48, 134, 152, 0.8);
+	    backdrop-filter: blur(.1rem);
+	    transition: opacity 0.1s ease;
+	    hyphens: auto;
+	    z-index: 77;
+	}
+	
+	.figure--hover:hover figcaption, .figure--hover:focus figcaption {
+	    opacity: 1;
+	}
+	
+	@media (prefers-reduced-motion: no-preference) {
+	    .figure--hover:is(:hover, :focus) {
+	        transform: scale(1.05);
+	    }
+	}
 }

@@ -5,7 +5,7 @@ date: 2015-01-28
 source: https://codepen.io/plfstr/pen/zxdYpb/
 tags: [codepen, sideproject, web, personal, typography, pickedpen]
 ---
-While watching the episode of BBC Top Gear where Jeremy and James are driving a vintage French car, I realised the badly translated instructions Jeremy was yelling from the manual would make a good Lorem Ipsum substitute. 
+While watching an episode of BBC's [Top Gear](https://en.wikipedia.org/wiki/Top_Gear_(2002_TV_series)), where Jeremy and James are driving a vintage French car, I realised the badly translated instructions Jeremy was yelling from the manual would make a good Lorem Ipsum substitute. 
 
 Novelty Ipsum generators were a thing, so I had no trouble finding a JS generator. Then I set to work tracking down a clip of the particular sketch and breaking out the dialogue into an array. Here is the result.
 

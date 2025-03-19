@@ -34,7 +34,7 @@ function Mentioncount(props) {
  * @returns {string}
  */
 function mentiondate(published, wmreceived) {
-    return new Date(published ? published : wmreceived).toLocaleString();
+    return new Date(published ? published : wmreceived).toLocaleDateString();
 }
 
 /**
@@ -47,6 +47,47 @@ function mentionurl(url) {
 }
 
 /**
+ * @function validUrl
+ * @param {URL} link
+ * @returns {Boolean}
+ */
+function validUrl(link) {
+  if (typeof URL.canParse === 'function') {
+    return URL.canParse(link) && validProtocol(link);
+  } else { 
+    try {
+      return new URL(link) && validProtocol(link);
+    } catch(err) {
+      console.error(err);
+      return false;
+    };
+  }
+}
+
+/**
+ * Test protocol becase canParse() doesnt catch javascript: links
+ * @function validProtocol
+ * @param {URL} link
+ * @returns {Boolean}
+ */
+function validProtocol(link) {
+  return ['https:', 'http:'].includes(new URL(link).protocol);
+}
+
+/**
+ * @function cleanUrl - returns a cleaned URL
+ * @param {URL} url
+ * @returns {string | null}
+ */
+function cleanUrl(url) {
+  if ( validUrl(url) ) {
+    return encodeURI(url);
+  } else {
+    return null;
+  }
+}
+
+/**
  * @function Mentionby - Return mention name OR URL host name
  * @param {object} props 
  * @param {string} props.name
@@ -54,12 +95,28 @@ function mentionurl(url) {
  * @returns {string}
  */
 function Mentionby(props) {
-    if (props.name) {
-        return html`<a href="${props.url}" rel="nofollow ugc">${props.name}</a> (${mentionurl(props.url)})`;
-    } else {
-        return html`<a href="${props.url}" rel="nofollow ugc">${mentionurl(props.url)}</a>`;
-    }
+  if (props.name) {
+    return html`<a href="${cleanUrl(props.url)}" rel="nofollow ugc">${props.name}</a> (${mentionurl(props.url)})`;
+  } else {
+    return html`<a href="${cleanUrl(props.url)}" rel="nofollow ugc">${mentionurl(props.url)}</a>`;
+  }
 }
+
+/**
+ * @function mentiontype - Returns an appropriate message for the mentions type
+ * @param {string} type - Mention type
+ * @returns {string}
+ */
+ function mentiontype(type) {
+    const types = {
+        "mention-of": "Mentioned",
+        "like-of": "Liked",
+        "bookmark-of": "Bookmarked",
+        "in-reply-to": "Replied to",
+        "repost-of": "Reposted"
+    }
+    return `${types?.[type] ?? "Mentioned"} this post`;
+ }
 
 /**
  * @function Mentionslist - Generate mentions
@@ -89,7 +146,7 @@ function Mentionslist(props) {
     <li>
     	<article tabindex="0">
 	      <p class="${wmproperty}" lang="auto" dir="auto">
-        	<${Mentionby} name=${authorname} url=${url} />, <time datetime="${published || wmreceived}">${mentiondate(published, wmreceived)}</time> - ${content?.text ? content.text : summary.value}
+        	<${Mentionby} name=${authorname} url=${url} />, <time datetime="${published || wmreceived}">${mentiondate(published, wmreceived)}</time> - ${ content?.text ?? mentiontype(wmproperty) }
 	      </p>
 	</article>
     </li>
@@ -99,13 +156,12 @@ function Mentionslist(props) {
 }
 
 /**
- * @function Mentionsmessage - Returns user message
- * @param {object} props
- * @param {string} props.msg
- * @returns {string | null}
+ * @function Mentionsmessage - Returns user message/errors
+ * @param {string} [props]
+ * @returns {html}
  */
 function Mentionmessage(props) {
-    return props.msg ? html`<p role="status">${props.msg}</p>` : null;
+    return html`<p role="status">${props.msg}</p>`;
 }
 
 // <Mentionable/>
@@ -113,6 +169,7 @@ class Mentionable extends Component {
 
     constructor(props) {
         super(props);
+	this.thisPost = new URL(document.location.pathname, document.location.origin).toString();
         this.fetchNow = (ev) => {
             ev.preventDefault();
             this._fetchMentions();
@@ -152,19 +209,23 @@ class Mentionable extends Component {
     }
 
     /**
-     * @private
+     * @private - Text summary list of mentions, N type(s)
      * @function mentionlist
      * @param {object} types 
-     * @returns {string | null}
+     * @returns {string}
      */
     mentionlist(types) {
-        let list = Array.from(Object.entries(types), type => `${type[1]} ${type[1] !== 1 ? type[0]+'s' : type[0]}`);
-        return new Intl.ListFormat(lang, { style: 'long', type: 'conjunction' }).format(list) ?? null;
+        let list = Object.entries(types).map(([type, count] = type) => `${count} ${count !== 1 ? type + 's' : type}`);
+        try{
+          return new Intl.ListFormat(lang, { style: 'long', type: 'conjunction' }).format(list);
+        } catch(err) {
+          return list.join(', ');
+        }
     }
 
     async _fetchCount() {
         // @ts-ignore
-        return await fetch(`https://webmention.io/api/count?target=${encodeURIComponent(window.location.href)}`, { priority: 'low' }).then(
+        return await fetch(`https://webmention.io/api/count?target=${encodeURIComponent(this.thisPost)}`, { priority: 'low' }).then(
             response => response.json()
         ).then(
             data => {
@@ -182,7 +243,7 @@ class Mentionable extends Component {
     }
 
     async _fetchMentions() {
-        return await fetch(`https://webmention.io/api/mentions.jf2?target=${encodeURIComponent(window.location.href)}`).then(
+        return await fetch(`https://webmention.io/api/mentions.jf2?target=${encodeURIComponent(this.thisPost)}`, {signal: AbortSignal.timeout(10000)}).then(
             response => response.json()
         ).then(
             data => {

@@ -3,7 +3,7 @@ title: About Me
 description: Paul Fosters portfolio of web design work. I have nearly 4 years commercial front-end web design experience for some well known brands.
 ---
 
-My name is Paul Foster, this site is a collection of my web career work. I have nearly 4 years commercial front-end web design experience for some well-known high-street and online brands. I have produced ads, content hubs, microsites and mailshots with millions of views. 
+My name is Paul Foster, this site is a collection of my web career work. I have nearly 4 years commercial front-end web design experience for some well-known high-street and online brands. I’m happiest designing, coding and creating the best web experiences for people.
 
 ## Work Overview
 
@@ -31,19 +31,6 @@ _**Contract work in a major brand. Quickly up to speed in a new team.**_
 *	Generating creative for the numerous Thomas Cook web properties.
 
 _See [my résumé](/cv/) for detailed work history._
-
-## What I offer
-
-Happiest when taking the design process through in to writing efficient code, and knowing that I am presenting information to people in the most effective way. The web is always changing and I have a real interest in the mobile and web application based platforms and the new opportunities they present.
-
-### Skills I bring
-
-*	Idea generation and creative thinking
-*	Concept sketching and development
-*	Photorealistic image generation
-*	Site design, template building, microsites
-*	Direct marketing, PPC, Affiliate experience
-*	SEO, Web Analytics, Site Optimisation
 
 ## Work with me
 
