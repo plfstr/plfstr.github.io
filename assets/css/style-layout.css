@@ -74,6 +74,9 @@ h1:before {
 	        box-shadow: none;
 			& > picture {
 				view-transition-name: attr(id type(<custom-ident>), none);
+				@supports (view-transition-name: auto) {
+				view-transition-name: auto;
+				}
 			}
 	    }
 	
