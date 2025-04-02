@@ -25,6 +25,12 @@
     }
 }
 
+@mixin --pfd-card {
+    padding: .75rem;
+    border-radius: .125rem;
+    background-color: var(--col-secondary);
+}
+
 html {
     box-sizing: border-box;
     scrollbar-color: var(--col-lowlight) var(--col-secondary);
@@ -268,18 +274,17 @@ dt {
 .button {
     display: inline-flex;
     align-items: baseline;
-    padding: .5em;
     text-box: trim-both cap alphabetic;
     border: 0;
     font-size: 1.5rem;
     text-align: center;
     line-height: 1;
     color: var(--col-highlight);
-    border-radius: .125rem;
-    background-color: var(--col-secondary);
     cursor: pointer;
     -webkit-appearance: none;
     appearance: none;
+    @apply --pfd-card;
+    padding: .5em;
 }
 
 .button-hero:after {
@@ -326,10 +331,8 @@ dt {
 
 .wrap-preview {
     margin-bottom: 1.5rem;
-    padding: .75rem;
-    border-radius: .125rem;
-    background-color: var(--col-secondary);
     margin-trim: block;  
+    @apply --pfd-card;
 }
 
 .wrap-preview--title {
@@ -346,9 +349,7 @@ dt {
 .codepen {
     font-family: monospace, monospace;
     margin-bottom: 1.5rem;
-    padding: .75rem;
-    border-radius: .125rem;
-    background-color: var(--col-secondary);
+    @apply --pfd-card;
     @media not (scripting: none) {
         height: attr(data-height px, 300px);
     }
@@ -409,9 +410,7 @@ dt {
 
 #mentionable {
     margin-bottom: 1.5rem;
-    padding: .75rem;
-    border-radius: .125rem;
-    background-color: var(--col-secondary);
+    @apply --pfd-card;
 }
 
 .copyright {
