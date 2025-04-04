@@ -1,6 +1,6 @@
 {% if page.portrait %}
 <figure class="figure__featimg figure__featimg--portrait">
-    <picture id="{{ page.slug }}">
+    <picture id="{{ workid }}">
     {% if include.webp %}
     <source srcset="{{ include.webp | prepend: '/assets/images/' | default: ''}}" type="image/webp">
     {% endif %}
@@ -8,7 +8,7 @@
     </picture>
 {% else %}
 <figure class="figure__featimg">
-    <picture id="{{ page.slug }}">
+    <picture id="{{ workid }}">
     {% if include.webp %}
     <source srcset="{{ include.webp | prepend: '/assets/images/' | default: ''}}" type="image/webp">
     {% endif %}
