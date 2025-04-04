@@ -1,7 +1,3 @@
-@view-transition {
-  navigation: auto;
-}
-
 body {
     background-attachment: fixed;
 }
@@ -71,13 +67,7 @@ h1:before {
 	@supports (scale: 1.1) {	
 	    .figure__featimg {
 	        position: relative;
-	        box-shadow: none;
-			& > picture {
-				view-transition-name: attr(id type(<custom-ident>), none);
-				@supports (view-transition-name: auto) {
-				view-transition-name: auto;
-				}
-			}
+	        box-shadow: none
 	    }
 	
 	    .figure__featimg:after {
