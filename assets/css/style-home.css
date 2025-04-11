@@ -36,6 +36,11 @@ article :is(h2, p) {
 	    margin: 0;
 	    padding: 0;
 	    transition: transform .1s ease;
+		@media (prefers-reduced-motion: no-preference) {
+		    &:is(:hover, :focus) {
+		        transform: scale(1.05);
+		    }
+		}
 	}
 	
 	.figure--hover figcaption {
@@ -58,11 +63,5 @@ article :is(h2, p) {
 	
 	.figure--hover:hover figcaption, .figure--hover:focus figcaption {
 	    opacity: 1;
-	}
-	
-	@media (prefers-reduced-motion: no-preference) {
-	    .figure--hover:is(:hover, :focus) {
-	        transform: scale(1.05);
-	    }
 	}
 }
