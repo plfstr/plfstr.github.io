@@ -6,14 +6,6 @@ h1,h2 {
     text-transform: uppercase
 }
 
-h1:before {
-    content: "/";
-    content: "/" / "";
-    margin-inline: -.125em .075em;
-    font-weight: 700;
-    color: var(--col-highlight)
-}
-
 .wrap-banner--pfd {
     display: block
 }
@@ -101,7 +93,11 @@ h1:before {
 }
 
 .wrap-preview--title:before {
-    color: currentColor
+	content: "/";
+	content: "/" / "";
+	margin-inline: -.125em .075em;
+	font-weight: 700;
+	color: currentColor;
 }
 
 .wrap-preview--image {
