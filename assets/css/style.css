@@ -87,6 +87,11 @@ body {
     }
 }
 
+article {
+    font-size: 1.125rem;
+    overflow-wrap: break-word;
+}
+
 article > * {
     margin: 0 0 1.5rem
 }
@@ -113,10 +118,9 @@ h3,.h3 {
     line-height: 1
 }
 
-article {
-    font-size: 1.125rem;
-    overflow-wrap: break-word;
-    hanging-punctuation: first
+p {
+    hanging-punctuation: first;
+    text-wrap: pretty;
 }
 
 ul, ol {
