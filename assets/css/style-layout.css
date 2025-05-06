@@ -20,6 +20,7 @@ h1,h2 {
         grid-gap: 2rem;
         gap: 2rem;
         row-gap: clamp(2rem, 3.5vw, 5rem);
+	reading-flow: grid-rows;
     }
 
     .wrap-content {
