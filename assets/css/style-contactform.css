@@ -1,0 +1,42 @@
+label,
+input,
+textarea {
+    appearance: none;
+    display: block;
+    width: 100%;
+    line-height: normal;
+    border: 2px solid transparent;
+}
+
+input,
+textarea {
+    padding: .5rem;
+    margin-block: .25rem .75rem;
+    background-color: var(--col-body, revert);
+}
+
+textarea {
+    form-sizing: normal;
+    resize: vertical;
+}
+
+.button--submit {
+    -webkit-appearance: button;
+    appearance: button;
+    cursor: pointer;
+    border: 2px solid transparent;
+    /* Highlight button when form valid */
+    form:valid & {
+        border-color: currentColor;
+    }
+}
+
+.button--submit:is(:active, :hover, :focus) {
+    color: var(--col-primary, currentColor);
+    background-color: var(--col-highlight, transparent) !important;
+}
+
+:is(input, textarea):where(:user-invalid, :not(:focus):not(:placeholder-shown):invalid) {
+    border-color: var(--col-body);
+    background-color: var(--col-highlight);
+}

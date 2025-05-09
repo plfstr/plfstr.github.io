@@ -39,3 +39,5 @@ If you have not already, take a [look through my portfolio](/work/) of web desig
 If you like my work and have a web role available (in-house or work remotely), [check out my CV](/cv/).
 
 _Thank you for visiting_
+
+{% include contactform.html %}
