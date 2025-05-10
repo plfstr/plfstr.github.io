@@ -16,7 +16,7 @@ textarea {
 }
 
 textarea {
-    form-sizing: normal;
+    field-sizing: content;
     resize: vertical;
 }
 
