@@ -12,6 +12,8 @@ input,
 textarea {
     padding: .5rem;
     margin-block: .25rem .75rem;
+    font-family: inherit;
+    font-size: inherit;
     background-color: var(--col-body, revert);
 }
 
