@@ -9,7 +9,7 @@ I have designed and coded a lot of direct email marketing pieces and customer co
 
 ## Street Fighter
 
-{% include image.html image="streetfighteriv.jpg" alt="Street Fighter IV Mailer" %}
+{% include image.html id="email-templates" image="streetfighteriv.jpg" alt="Street Fighter IV Mailer" %}
 
 Street Fighter IV game was an old game brought up-to-date whilst paying homage to the original characters and gameplay. 
 
