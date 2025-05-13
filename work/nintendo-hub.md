@@ -4,7 +4,7 @@ description: Creation of the Ant and Dec ‘Enjoy Nintendo’ campaign content h
 tags: [web, game, design]
 alt: Nintendo Game Hub
 ---
-{% include image.html image="nintendohub.jpg" webp="nintendohub.webp" alt="Nintendo Game Hub" %}
+{% include image.html id="nintendo-hub" image="nintendohub.jpg" webp="nintendohub.webp" alt="Nintendo Game Hub" %}
 
 *Enjoy Nintendo with Ant & Dec* was a content ‘hub’ of the GAME website, produced to support Nintendo’s multi-million pound ad campaign. Built to a tight deadline, against strict brand guidelines from Nintendo and the use of the Ant and Dec’s imagery. 
 
