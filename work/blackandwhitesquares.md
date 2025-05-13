@@ -5,7 +5,7 @@ tags: [web, design, tumblr, seo]
 alt: blackandwhitesquares.com website
 Shortname: b&ws
 ---
-{% include image.html image="baws.jpg" alt="blackandwhitesquares.com website" %}
+{% include id="blackandwhitesquares" image.html image="baws.jpg" alt="blackandwhitesquares.com website" %}
 
 **If it’s black, white and square-like it has a place here.**
 
