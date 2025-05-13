@@ -5,7 +5,7 @@ tags: [ideal, print]
 alt: Jewellery Size Guide
 portrait: true
 ---
-{% include image.html image="ringsizer.png" alt="Jewellery Size Guide" %}
+{% include image.html id="ringsize-guide" image="ringsizer.png" alt="Jewellery Size Guide" %}
 
 Tasked with creating a downloadable and printable measuring tape for Ideal World customers to measure themselves, establish their size and assist in placing jewellery orders.
 
