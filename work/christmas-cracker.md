@@ -4,7 +4,7 @@ description: Luxury Christmas cracker box design direct marketing promotion for 
 tags: [print, ideal, marketing, design]
 alt: Ideal Christmas Cracker Promotion
 ---
-{% include image.html image="christmascracker.jpg" webp="christmascracker.webp" alt="Ideal Christmas Cracker Promotion" %}
+{% include image.html id="christmas-cracker" image="christmascracker.jpg" webp="christmascracker.webp" alt="Ideal Christmas Cracker Promotion" %}
 
 Tasked with advertising Ideal World’s upcoming ‘Christmas in August’ bank holiday weekend event as a direct mailing. 
 
