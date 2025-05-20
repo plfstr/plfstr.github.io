@@ -1,10 +1,28 @@
 {% if page.date %}
 <section>
-<h2 class="invisible">Follow My Work</h2>
+<h2 class="invisible">Elsewhere</h2>
+<p><small>Respond to this post via <a href="https://indieweb.org/webmentions">webmention</a> from your own site!</small></p>
+    
+{% if page.syndicated %}
+<section id="syndication">
+<h3 class="invisible">Syndication</h3>
+<p><small>Post syndicated to:</small></p>
+<ul>
+    {% for syndilink in page.syndicated %}
+    <li><a href="{{ syndilink }}" class="u-syndication" rel="syndication">{{ syndilink }}</a></li>
+    {% endfor %}
+</ul>
+</section>
+{% endif %}
+
+<section>
+<h3 class="invisible">Follow My Work</h3>
 {% if page.tags contains "codepen" %}
 <p><small>Check out <a href="https://codepen.io/plfstr">my CodePen profile</a> for more code demos. Subscribe via RSS or via the Fediverse (<a href="https://mastodon.social/@plfstr">@plfstr@mastodon.social</a>) to follow my posts.</small></p>
 {% else %}
 <p><small>Subscribe via RSS to follow my thoughts as I post them here, or via the Fediverse (<a href="https://mastodon.social/@plfstr">@plfstr@mastodon.social</a>).</small></p>
 {% endif %}
+</section>
+
 </section>
 {% endif %}
