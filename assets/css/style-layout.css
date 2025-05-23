@@ -2,8 +2,10 @@
   navigation: auto;
 }
 
-.figure__featimg picture {
-	view-transition-name: auto;
+@media (prefers-reduced-motion: no-preference) {
+	.figure__featimg picture {
+		view-transition-name: auto;
+	}
 }
 
 body {
