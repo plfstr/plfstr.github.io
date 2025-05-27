@@ -13,7 +13,7 @@ Based on my [Hop Over Notification](/blog/hop-over-navigation/) demo - hey, ever
 
 This effect is as simple (un-prefixed!) as adding `mdl-button--primaryintro` to the `<button>` which is your primary action and including the following style to the Material Design Lite framework:
 
-```language-css
+```
 .mdl-button--primaryintro {
 	animation: primaryintro ease-out .5s both 1.5s;
 	}
