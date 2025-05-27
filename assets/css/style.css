@@ -286,10 +286,15 @@ dt {
     border-radius: .125rem
 }
 
-.button-hero:after {
-    content: "\21E8";
-    content: "\21E8" / "Right arrow";
-    margin-inline-start: .125em
+.button-hero {
+    background-color: var(--col-highlight);
+    color: var(--col-primary, currentColor) !important;
+    border-radius: .75rem;
+    &:after {
+        content: "\21E8";
+        content: "\21E8" / "Right arrow";
+        margin-inline-start: .125em;
+    }
 }
 
 .button[rel="prev"]:before {
