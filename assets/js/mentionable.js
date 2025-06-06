@@ -1,5 +1,5 @@
 //@ts-check
-import { html, Component, render } from './bundle.min.js';
+import { html, Component, render } from "htm/preact";
 
 /** * @type {HTMLElement} */
 const mentiondom = document.querySelector('#mentionable');
