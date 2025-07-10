@@ -7,7 +7,7 @@ tags: [codepen, personal, css, milestone]
 ---
 {% include codepen.html codepen="cgsGH" height="250" %}
 
-[Hop Over Notification Badge](/blog/hop-over-navigation/) has flown past [Excerpt Peek](/blog/excerpt-peek/) to the top of [my most popular pens](https://codepen.io/plfstr/pens/popular) on the code demo site, CodePen, with 10,000+ views. The effect got more attention due to featuring in a post on Envato, ‘[A Collection of Pure CSS Animation Snippets & Demos](https://web.archive.org/web/20160721090659/http://marketblog.envato.com/inspirations/pure-css-animation-snippets/)’.
+[Hop Over Notification Badge](/blog/hop-over-navigation/) has flown past [Excerpt Peek](/blog/excerpt-peek/) to the top of [my most popular pens](https://codepen.io/plfstr/pens/popular) on the code demo site, CodePen, with 10,000+ views. The effect got more attention due to featuring in a post on Envato, ‘[A Collection of Pure CSS Animation Snippets &amp; Demos](https://elements.envato.com/learn/pure-css-animation-snippets)’.
 
 I was particularly pleased with this CSS effect and to-date I have seen few like it featuring a z-index change. It was tricky to code the effect successfully cross-browser. 
 
