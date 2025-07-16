@@ -1,3 +1,9 @@
+{% if page.tags contains "pickedpen" %}
+<aside>
+    <p><small><i>{{ page.title }} selected by CodePen for ‘Picked Pens’ showcase.</small></i></p>
+</aside>
+{% endif %}
+
 {% if page.date %}
 <p><small>Posted <time class="dt-published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%d/%m/%Y" }}</time></small></p>
 {% endif %}
