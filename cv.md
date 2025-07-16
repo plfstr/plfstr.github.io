@@ -19,7 +19,7 @@ I want to form a key part of a team and actively participate in moving a company
 *	[Brush Swap](/blog/brush-swap/) app for prompting people to replace their toothbrush.
 *	Code demo success on [CodePen](https://codepen.io/plfstr/popular/):
 	+ [Excerpt Peek](/blog/excerpt-peek/), [Flexbox Film Credits](/blog/flexbox-film-credits/) and [Chicken Swing Dynamic](/blog/chicken-swing-dynamic/) selected for <i>Editor Picks</i>. 
-	+ [CSS 1K](/blog/css1k-on-codepen/) theme for a popular 1kB CSS coding challenge sparked a CodePen blog post. 
+	+ [CSS 1K](/blog/css1k-on-codepen/) theme for 1kB CSS coding challenge sparked a CodePen blog post. 
 	+ [Hop Over Notification](/blog/10k-hop-over-views/) CSS keyframe effect has 65,000+ views, 200+ likes.
 	+ [HTML Memory Test](/blog/html-elements-test/) went [kind-of viral](/blog/html-memory-tested/) in the web community, featured [in several newsletters](/blog/html-memory-tested/#:~:text=CSS-Tricks%20newsletter,issue%20%2349&text=Web%20Weekly%20%2396,tags%20you%20know.%E2%80%99) and [amassed 100,000+ views](/blog/100k-html-tests/).
 *	[Kirby CodePen extension](/blog/kirbytag-codepen/) featured on getkirby-plugins.com.
