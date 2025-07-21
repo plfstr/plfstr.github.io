@@ -15,7 +15,7 @@ This was my favourite response (and good approach):
 
 > I started alphabetically, then randomly, then thematically, then desperately – [Harry Roberts](https://twitter.com/csswizardry/status/1343194316483801088?s=20) (@csswizardry)
 
-[The Pen](https://codepen.io/plfstr/details/zYqQeRw) has sailed into my top 3 [popular pens](https://codepen.io/plfstr/popular/) on CodePen with 15,000+ views so far.
+[The Pen](https://codepen.io/plfstr/details/zYqQeRw) has sailed into my top 3 [popular pens](https://codepen.io/plfstr/pens/popular/) on CodePen with 15,000+ views so far.
 
 ## Sites Featured
 
