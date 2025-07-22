@@ -3,9 +3,7 @@ title: Paul Foster Résumé
 description: Paul Fosters résumé, from a degree in product design to four years work web design experience for some high street brands.
 layout: cv
 ---
-In a four year professional career, I have worked for three household name e-commerce retailers in the retail and leisure markets and I am ready to take my career further with a fresh challenge.
-
-I want to form a key part of a team and actively participate in moving a company forward through great creative, technical improvement and enhanced user experience. Efficiency, clean semantic markup and accessibility are my benchmarks. 
+In a four year professional career, I have worked for three household name e-commerce retailers in the retail and leisure markets. Enhanced user experience and accessibility through good design and semantic markup, are what I like to do.
 
 ## Experience
 
