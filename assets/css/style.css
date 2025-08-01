@@ -137,10 +137,8 @@ ol {
 
 ul ul, 
 #syndication ul {
-    list-style-type: circle;
-    margin-bottom: 0;
     ::marker {
-        color: currentColor;
+        color: currentColor
     }
 }
 
