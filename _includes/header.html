@@ -7,26 +7,14 @@
     <nav>
         <ul class="wrap-banner--nav flex--col flex--row list--nostyles h2">
             
-            <li class="flex--fifty wrap-banner--pfd"><a class="link__nav--home" href="/">Paul Foster Design</a></li>
+            <li class="flex--fifty wrap-banner--pfd"><a class="link__nav--home" href="/">Paul Foster Design</a></li>            
             
-            {% if page.slug == 'work' %}
-            <li class="flex--auto flex--justifycenter"><a href="/work/" aria-current="page">Work</a></li>
-            {% else %}
-            <li class="flex--auto flex--justifycenter"><a href="/work/">Work</a></li>
-            {% endif %}
-
-            {% if page.slug == 'blog' %}
-            <li class="flex--auto flex--justifycenter"><a href="/blog/" aria-current="page">Blog</a></li>
-            {% else %}
-            <li class="flex--auto flex--justifycenter"><a href="/blog/">Blog</a></li>
-            {% endif %}
+            <li class="flex--auto flex--justifycenter"><a href="/work/" {% if page.slug == 'work' %}aria-current="page"{% endif %}>Work</a></li>
             
-            {% if page.slug == 'about' %}
-            <li class="flex--auto flex--justifycenter"><a href="/about/" aria-current="page">About</a></li>
-            {% else %}
-            <li class="flex--auto flex--justifycenter"><a href="/about/">About</a></li>
-            {% endif %}
-
+            <li class="flex--auto flex--justifycenter"><a href="/blog/" {% if page.slug == 'blog' %}aria-current="page"{% endif %}>Blog</a></li>            
+            
+            <li class="flex--auto flex--justifycenter"><a href="/about/" {% if page.slug == 'about' %}aria-current="page"{% endif %}>About</a></li>
+            
         </ul>
     </nav>
 
