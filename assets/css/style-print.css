@@ -52,3 +52,11 @@ pre {
     padding: .5rem;
     border: 0.0625rem dotted;
 }
+
+ol, ul {
+  padding-inline-start: 1rem;
+}
+
+ul {
+    list-style-type: square;
+}
