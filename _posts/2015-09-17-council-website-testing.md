@@ -5,7 +5,7 @@ date: 2015-09-17
 source: 
 tags: [web, personal, testing, dev, ux]
 ---
-This week I went along to test the upcoming website for Huntingdonshire District Council. I saw an ad in the local newspaper(yes) [asking for testers](http://huntingdonshire.gov.uk/News%20and%20Communications/whatsnew/Pages/Councillookingforvolunteerstotestnewwebsite.aspx) and thought it would be interesting to experience the user testing process.
+This week I went along to test the upcoming website for Huntingdonshire District Council. I saw an ad in the local newspaper(yes) asking for testers and thought it would be interesting to experience the user testing process.
 
 I also wanted to see how they handle user testing and get a sneak peak of what I hoped was a well implemented website in development. The UK .Gov sites are held in high regard for their usability and I wanted to see if this had been brought across or emulated by the council.
 
