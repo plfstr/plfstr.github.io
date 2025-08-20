@@ -2,3 +2,6 @@
   <span>See <a href="{{ include.codepen | prepend: 'https://codepen.io/plfstr/pen/' }}">{{ page.title | default: plfstr Pen }}</a> by Paul (<a href="https://codepen.io/plfstr">@plfstr</a> on <a href="https://codepen.io" rel="noopener" target="_blank">CodePen</a>.</span>
 </p>
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
+<noscript>
+  <iframe title="{{ page.title | default: Code demo }}" src="{{ include.codepen | prepend: 'https://codepen.io/plfstr/embed/' }}" width="100%" height="{{ include.height | default: 300 }}" loading="lazy">Sorry, iframe not loaded</iframe>
+</noscript>
