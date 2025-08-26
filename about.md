@@ -3,7 +3,7 @@ title: About Me
 description: Paul Fosters portfolio of web design work. I have nearly 4 years commercial front-end web design experience for some well known brands.
 ---
 
-My name is Paul Foster, this site is a collection of my web career work. I have nearly 4 years commercial front-end web design experience for some well-known high-street and online brands. I’m happiest designing, coding and creating the best web experiences for people.
+I'm Paul Foster, web designer front-end and developer, this is a collection of my web career work. If you have not already, take a look through [my portfolio](/work/) of web design work. See [my blog](/blog/) for my latest side projects, apps and updates.
 
 ## Work Overview
 
@@ -33,8 +33,6 @@ _**Contract work in a major brand. Quickly up to speed in a new team.**_
 _See [my résumé](/cv/) for detailed work history._
 
 ## Work with me
-
-If you have not already, take a [look through my portfolio](/work/) of web design work. I'm still creating and writing code. See [my blog](/blog/) for my latest projects and updates.
 
 If you like my work and have a web role available (in-house or work remotely), [check out my CV](/cv/).
 
