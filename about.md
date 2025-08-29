@@ -3,7 +3,7 @@ title: About Me
 description: Paul Fosters portfolio of web design work. I have nearly 4 years commercial front-end web design experience for some well known brands.
 ---
 
-I'm Paul Foster, web designer front-end and developer, this is a collection of my web career work. If you have not already, take a look through [my portfolio](/work/) of web design work. See [my blog](/blog/) for my latest side projects, apps and updates.
+I'm Paul Foster, web designer and front-end developer. This is a collection of my [web career work](/work/), read on for an overview. See [my blog](/blog/) for my latest side projects, apps and updates.
 
 ## Work Overview
 
@@ -21,7 +21,6 @@ _**Continued my career with an international games retailer.**_
 
 *	GAME site merchandising, affiliate banners, PPC campaigns and [content hubs](/work/nintendo-hub/).
 *	Redesign of  [customer email templates](/work/email-templates/) for GAME Groups various brands.
-
 	
 ### Thomas Cook
 
@@ -33,6 +32,8 @@ _**Contract work in a major brand. Quickly up to speed in a new team.**_
 _See [my résumé](/cv/) for detailed work history._
 
 ## Work with me
+
+If you have not already, take a look through [my portfolio](/work/) of web design work.
 
 If you like my work and have a web role available (in-house or work remotely), [check out my CV](/cv/).
 
