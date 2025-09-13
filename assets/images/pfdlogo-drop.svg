@@ -6,6 +6,6 @@
     <g transform="translate(9 12)">
       <use fill="rgba(0,10,0,0.1)" xlink:href="#a"/>
     </g>
-    <path fill="#F0F0F0" d="M389.6 34H227.3l10.6-34H401l-11.4 34zm-372 65l11.7-35h126.2l9.5-30H38.9L50.3 0h167.3l-33 99h-167zm44.1 53H0l11.9-35h61.4l-11.6 35zm198.8-35l-11.6 35h-61.2l11.9-35h60.9zM217 64h121.4l-12.3 35H205.4L217 64z"/>
+    <use fill="#F0F0F0" xlink:href="#a"/>
   </g>
 </svg>
