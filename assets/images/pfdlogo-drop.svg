@@ -6,6 +6,6 @@
     <g transform="translate(9 12)">
       <use fill="rgba(0,10,0,0.1)" xlink:href="#a"/>
     </g>
-    <use fill="#F0F0F0" xlink:href="#a"/>
+    <use fill="#F0F0F0" stroke="#FFF" stroke-linejoin="round" stroke-width="2" xlink:href="#a"/>
   </g>
 </svg>
