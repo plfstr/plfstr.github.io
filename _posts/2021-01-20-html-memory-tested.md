@@ -38,7 +38,7 @@ HTML Tags Memory Test has featured in a number of different articles and newslet
 + [‘Lost in Translation’ talk](https://youtu.be/Wno1IhEBTxc?t=570) (@ 9m30s) by Manuel Matuzović at Beyond Tellerrand, Smashing Conference Freiburg 2022 and Paris Web.
 + A quiz on [The Meaning of Web Accessibility: Accessible HTML & Assistive Technologies w/ Nic Steenhout](https://youtu.be/k8k_6MBtBas?t=2607) on YouTube (~43min, 25sec)
 + [10 HTML Elements You May Have Never Heard Of](https://dev.to/jenndiaz/10-html-elements-you-may-have-never-heard-of-2bhb) by Jennifer Grenier Diaz.
-+ [Web Weekly #96](https://www.stefanjudis.com/blog/web-weekly-96/), highlighting the new search tag in a newsletter by Stefan Judis.
++ [Web Weekly #96](https://www.stefanjudis.com/blog/web-weekly-96/) and again in [Web Weekly #168](https://www.stefanjudis.com/blog/web-weekly-168/#:~:text=I%20love%20it,HTML%20tags%20memory%20test), a newsletter by Stefan Judis.
 + WeAreDevelopers [Dev Digest, #97](https://devrel.wearedevelopers.com/devdigest2024/editions/newsletter-97.html) in Procrastination Corner.
 + [Frontend Focus Issue #614](https://frontendfoc.us/issues/614). Subject line: ‘Test how many HTML tags you know.’
 + [Posted on Hacker News](https://news.ycombinator.com/item?id=40968520), reaching #19 on the front page and adding 20k+ more views to the pen.
