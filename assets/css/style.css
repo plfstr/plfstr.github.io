@@ -374,7 +374,7 @@ div:where(.language-css, .language-html, .language-js):before {
     display: block;
     padding: .25rem .75rem;
     background-color: var(--col-secondary);
-    color: var(--col-lowlight, currentColor);
+    color: var(--col-highlight, currentColor);
 }
 
 div.language-html:before {
