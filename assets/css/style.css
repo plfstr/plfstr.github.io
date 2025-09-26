@@ -379,17 +379,14 @@ div:where(.language-css, .language-html, .language-js):before {
 
 div.language-html:before {
     content: "HTML";
-    content: "HTML" / "HTML";
 }
 
 div.language-css:before {
     content: "CSS";
-    content: "CSS" / "CSS";
 }
 
 div.language-js:before {
     content: "JS";
-    content: "JS" / "JS";
 }
 
 @media only screen and (min-width: 600px) {
