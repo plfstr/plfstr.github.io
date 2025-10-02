@@ -187,6 +187,7 @@ p>code,kbd {
 }
 
 pre {
+    margin: 0;
     padding: .75rem;
     overflow: auto;
     word-wrap: normal;
@@ -368,6 +369,25 @@ dt {
     display: block;
     max-width: 43.75rem;
     box-shadow: .75rem .75rem 0 rgba(0,0,0,.2)
+}
+
+div:where(.language-css, .language-html, .language-js):before {
+    display: block;
+    padding: .75rem .75rem 0;
+    background-color: var(--col-secondary);
+    color: var(--col-highlight, currentColor);
+}
+
+div.language-html:before {
+    content: "HTML";
+}
+
+div.language-css:before {
+    content: "CSS";
+}
+
+div.language-js:before {
+    content: "JS";
 }
 
 @media only screen and (min-width: 600px) {
