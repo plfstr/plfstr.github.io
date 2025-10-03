@@ -58,8 +58,8 @@ In my professional career, I have worked for several household name e-commerce r
 
 **University of Wales Institute Cardiff (now Cardiff Metropolitan University)**
 
-*	[LEDFin](/ledfin/), an LED desk lamp: _Second Place_, UK Student Lighting Design Competition and _Finalist_, Lights of the Future Competition in Frankfurt
-*	Exhibited at New Designers Exhibition, Business Design Centre, London
+*	[LEDFin](/ledfin/), an LED desk lamp: _Second Place_, **UK Student Lighting Design Competition** and _Finalist_, **Lights of the Future** competition in Frankfurt
+*	Exhibited at **New Designers** exhibition, Business Design Centre, London
 
 
 ## Have a role for me?
