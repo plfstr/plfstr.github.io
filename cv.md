@@ -11,7 +11,7 @@ In my professional career, I have worked for several household name e-commerce r
 
 **[paulfosterdesign.co.uk](/), [blackandwhitesquares.com](https://blackandwhitesquares.com), [Tumblr Print Theme](https://www.tumblr.com/theme/30839)**
 
-*	Redesign, writing and maintainence on my portfolio site, progressing [from WordPress](/blog/year-review-2013/) to [Kirby CMS](/blog/portfolio-redesign/), to a static site [built with Jekyll](/blog/portfolio-redesign-2020/).
+*	Redesign, writing and maintenance on my portfolio site, progressing [from WordPress](/blog/year-review-2013/) to [Kirby CMS](/blog/portfolio-redesign/), to a static site [built with Jekyll](/blog/portfolio-redesign-2020/).
 *	Created ‘[Print Theme](/work/print-theme/)’ for Tumblr blogging platform. Peak of 450+ installs.
 *	Launched [blackandwhitesquares.com](/work/blackandwhitesquares/) about QR code use, built on Tumblr.
 *	[Brush Swap](/blog/brush-swap/) app for prompting people to replace their toothbrush.
