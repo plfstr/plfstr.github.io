@@ -400,6 +400,11 @@ div.language-js:before {
     }
 }
 
+#syndication li {
+    list-style-type: "∞";
+    padding-inline-start: .25em;
+}
+
 .figure--hover {
     margin: 0 0 1.5rem;
 }
