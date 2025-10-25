@@ -212,7 +212,17 @@ dt {
     font-style: italic
 }
 
-:where(::selection, ::target-text, ::search-text) {
+::selection {
+    color: var(--col-primary);
+    background-color: var(--col-highlight);
+}
+
+::target-text {
+    color: var(--col-primary);
+    background-color: var(--col-highlight);
+}
+
+::search-text {
     color: var(--col-primary);
     background-color: var(--col-highlight);
 }
