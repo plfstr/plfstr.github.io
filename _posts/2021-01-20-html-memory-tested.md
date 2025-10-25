@@ -43,6 +43,7 @@ HTML Tags Memory Test has featured in a number of different articles and newslet
 + [Frontend Focus Issue #614](https://frontendfoc.us/issues/614). Subject line: ‘Test how many HTML tags you know.’
 + [Posted on Hacker News](https://news.ycombinator.com/item?id=40968520), reaching #19 on the front page and adding 20k+ more views to the pen.
 + Featured in CodePen's front-page picks.
++ [Pixels of the Week](https://stephaniewalter.design/blog/pixels-of-the-week-september-21-2025/) – September 21, 2025 by Stéphanie Walter
   
 ## HTML Tags Recalled
 
