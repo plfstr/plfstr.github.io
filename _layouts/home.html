@@ -58,14 +58,14 @@
                     </div>
                 </section>
                 
-                <section>
-                    <h2>My Blog</h2>
-                    <p><strong>My thoughts on web design and more&hellip;</strong></p>
-                    <p><a href="/blog/" class="button">All Posts</a></p>
-                </section>        
-                
-                <aside>
-                    <article class="wrap-preview">
+                <section class="wrap-content--passthrough">
+					<div>
+						<h2>My Blog</h2>
+						<p><strong>My thoughts on web design and more&hellip;</strong></p>
+						<p><a href="/blog/" class="button">All Posts</a></p>
+					</div>
+
+					<article class="wrap-preview">
                         {% assign latestpost = site.posts.first %}
                         {% if latestpost.thumb %}
                             <a href="{{ latestpost.url }}" class="wrap-preview--image" tabindex="-1">
@@ -74,11 +74,11 @@
                                 </div>
                             </a>
                         {% endif %}
-			<h2 class="wrap-preview--title"><a href="{{ latestpost.url }}">{{ latestpost.title }}</a></h2>
+						<h2 class="wrap-preview--title"><a href="{{ latestpost.url }}">{{ latestpost.title }}</a></h2>
                         <p>{{ latestpost.excerpt | strip_html }}</p>
                         <p><a href="{{ latestpost.url }}" class="button" tabindex="-1">Read Post</a></p>
                     </article>
-                </aside>
+                </section>        
         
             </article>
         
