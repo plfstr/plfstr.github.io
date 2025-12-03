@@ -83,14 +83,8 @@ h1,h2 {
 
 .wrap-preview {
     all: revert;
-    overflow: auto;
-}
-
-@supports (display:flow-root) {
-    .wrap-preview {
-        display: flow-root;
-        overflow: visible;
-    }
+    display: flow-root;
+    overflow: visible;
 }
 
 .wrap-preview--title:before {
