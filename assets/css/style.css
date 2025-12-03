@@ -402,11 +402,10 @@ div.language-js:before {
 
 @media only screen and (min-width: 600px) {
     .figure__featimg--portrait {
-        max-width: 22.5rem;
         float: right;
         float: inline-end;
-        margin-left: 1rem;
-        margin-inline-start: 1rem;
+        margin-inline-start: .5rem;
+        max-width: 22.5rem;
     }
 }
 
