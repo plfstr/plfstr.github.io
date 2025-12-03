@@ -403,11 +403,16 @@ div.language-js:before {
 }
 
 @media only screen and (min-width: 600px) {
-    .figure__featimg--portrait {
+    .figure__featimg--portrait,
+    .wrap-preview--image {
         float: right;
         float: inline-end;
         margin-inline-start: .5rem;
         max-width: 22.5rem;
+    }
+
+    .wrap-preview--image {
+        max-width: 20rem;
     }
 }
 
