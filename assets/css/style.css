@@ -353,6 +353,8 @@ dt {
 }
 
 .wrap-preview {
+    display: flow-root;
+    overflow: auto;
     margin-trim: block;  
 }
 
