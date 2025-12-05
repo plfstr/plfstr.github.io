@@ -64,21 +64,26 @@
                     <p><a href="/blog/" class="button">All Posts</a></p>
                 </section>        
                 
-                <aside>
+                <pfd-preview>
+					<template>
+					<link rel="stylesheet" href="assets/css/style-preview.css">
                     <article class="wrap-preview">
-                        {% assign latestpost = site.posts.first %}
-                        {% if latestpost.thumb %}
-                            <a href="{{ latestpost.url }}" class="wrap-preview--image" tabindex="-1">
-                                <div class="figure__featimg">
-                                    <img src="{{ latestpost.thumb }}" alt="{{ latestpost.alt }}" width="320" height="220" loading="lazy" fetchpriority="low">
-                                </div>
-                            </a>
-                        {% endif %}
-			<h2 class="wrap-preview--title"><a href="{{ latestpost.url }}">{{ latestpost.title }}</a></h2>
-                        <p>{{ latestpost.excerpt | strip_html }}</p>
-                        <p><a href="{{ latestpost.url }}" class="button" tabindex="-1">Read Post</a></p>
+	                    <div class="wrap-preview--image">
+							<slot name="preview-thumb"></slot>
+						</div>
+						<slot name="preview-title">Project</slot>
+						<slot>Check out this project&hellip;</slot>
                     </article>
-                </aside>
+					</template>
+					{% assign latestpost = site.posts.first %}
+					{% if latestpost.thumb %}
+					<a href="{{ latestpost.url }}" slot="preview-thumb" tabindex="-1">
+						<img class="figure__featimg" src="{{ latestpost.thumb }}" alt="{{ latestpost.alt }}" width="320" height="220" loading="lazy" fetchpriority="low">
+					</a>
+					{% endif %}
+					<h2 slot="preview-title"><a href="{{ latestpost.url }}">{{ latestpost.title }}</a></h2>
+                    <p>{{ latestpost.excerpt | strip_html }}</p>
+                </pfd-preview>
         
             </article>
         
