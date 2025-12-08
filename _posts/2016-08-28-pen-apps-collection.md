@@ -15,6 +15,6 @@ Some are simple fun, such as Paint 2016
 
 Just pass some time with Memory Game
 
-[Pen Apps Collection](https://codepen.io/plfstr/post/pen-apps-collection) is 35+ pens so far, with more added when they are found. Check out the collection, find somethign[sic] you can use, or inspires you to build something.
+[Pen Apps Collection](https://codepen.io/collection/ANqGVk/) is 35+ pens so far, with more added when they are found. Check out the collection, find somethign[sic] you can use, or inspires you to build something.
 
 _‘[Pen Apps Collection](https://codepen.io/plfstr/post/pen-apps-collection)’ was originally posted as a [CodePen Post](https://codepen.io/plfstr/posts/) and reposted for preservation purposes._
