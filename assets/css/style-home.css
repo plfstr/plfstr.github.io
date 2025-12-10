@@ -9,6 +9,10 @@ article :is(h2, p) {
 	    grid-row: auto;
 	    margin-top: 0;
 	}
+
+	.wrap-content--passthrough {
+		display: contents;
+	}
 	
 	.wrap-all {
 	    width: 100%;
