@@ -302,6 +302,7 @@ dt {
     background-color: var(--col-highlight);
     color: var(--col-primary, currentColor) !important;
     border-radius: .75rem;
+    box-shadow: .75rem .75rem 0 rgba(0,0,0,.2);
     &:after {
         content: "\21E8";
         content: "\21E8" / "Right arrow";
