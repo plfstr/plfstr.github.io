@@ -70,8 +70,9 @@ h1,h2 {
 	        inset: 0;
 	        z-index: -1;
 	        translate: 12% 30%;
-		transform: skew(-15deg);
-		scale: 1 0.5;
+			translate: max(12%, 2.5rem) 30%;
+			transform: skew(-15deg);
+			scale: 1 0.5;
 	        background-color: var(--col-secondary)
 	    }
 	
