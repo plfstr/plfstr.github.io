@@ -42,7 +42,7 @@
 <meta property="og:site-name" content="{{ site.url }}">
 <meta property="og:locale" content="en_GB">
 {% if page.thumb %}
-<meta property="og:image" content="{{ page.thumb }}">
+<meta property="og:image" content="{{ page.thumb | absolute_url }}">
 <meta property="og:image:alt" content="{{ page.alt | }}">
 <meta property="og:image:width" content="320">
 <meta property="og:image:height" content="220">
