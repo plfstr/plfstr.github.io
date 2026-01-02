@@ -1,3 +1,7 @@
+.wrap-sidebar {
+	display: none;
+}
+
 article :is(h2, p) {
     margin-top: 0;
     margin-bottom: 1rem
