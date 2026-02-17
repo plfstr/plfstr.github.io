@@ -25,7 +25,7 @@ article :is(h2, p) {
 	    grid-gap: 1rem;
 	    gap: 1rem;
 	    margin-bottom: 0;    
-	    @media (width >= 1050px) {
+	    @media (--mq-wide) {
 	        grid-gap: 2.5rem;
 	        gap: 2.5rem;
 	        margin-inline: -1.26rem;
