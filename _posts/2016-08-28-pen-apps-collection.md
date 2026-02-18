@@ -7,13 +7,13 @@ tags: [codepen, webapp]
 
 **Having made a few single-serve Pens, such as [Colordinates](https://codepen.io/plfstr/full/rarJov) and [Embriage Ipsum](https://codepen.io/plfstr/full/zxdYpb). I began [a collection of app-like pens](https://codepen.io/collection/ANqGVk/), simple Pens with a single purpose.**
 
-Some could form part of your workflow, comparing fonts with Typeface Comparison
+Some could form part of your workflow, comparing fonts with [Typeface Comparison](https://codepen.io/johndjameson/pen/vYOmJj)
 
-Some are practical and well executed such as this Pomodoro Timer
+Some are practical and well executed such as this [Pomodoro Timer](https://codepen.io/reneroth/full/NqowJw)
 
-Some are simple fun, such as Paint 2016
+Some are simple fun, such as [Paint 2016](https://codepen.io/Lewitje/pen/dXpRmm)
 
-Just pass some time with Memory Game
+Just pass some time with [Memory Game](https://codepen.io/natewiley/pen/BawOqL)
 
 [Pen Apps Collection](https://codepen.io/collection/ANqGVk/) is 35+ pens so far, with more added when they are found. Check out the collection, find somethign[sic] you can use, or inspires you to build something.
 
