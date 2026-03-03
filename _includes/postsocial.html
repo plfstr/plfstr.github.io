@@ -2,7 +2,7 @@
 <section>
 <h2 class="invisible">Elsewhere</h2>
 
-<p><a class="small button button--mastodon" href="{{ page.url | preprend: "https://share.joinmastodon.org/#text=" | uri_escape }">Share on Mastodon</a></p>
+<p><a class="small button button--mastodon" href="{{ page.url | absolute_url | uri_escape | preprend: "https://share.joinmastodon.org/#text=" }">Share on Mastodon</a></p>
     
 <p><small>Respond to this post via <a href="https://indieweb.org/webmentions">webmention</a> from your own site!</small></p>
     
