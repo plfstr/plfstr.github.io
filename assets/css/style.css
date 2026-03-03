@@ -300,12 +300,6 @@ dt {
     }
 }
 
-.button-mastodon {
-    background-color: #6364ff;
-    color: white !important;
-    font-size: inherit;
-}
-
 .button[rel="prev"]:before {
     content: "\21E6";
     content: "\21E6" / "Left arrow";
