@@ -2,10 +2,12 @@
 <section>
 <h2 class="invisible">Elsewhere</h2>
 
+<section>
+<h3 class="invisible">Share</h3>
 {% capture sharetxt %}{{ page.title }} {{ page.url | absolute_url }}{% endcapture %}
 <p><a class="button button-mastodon" href="https://share.joinmastodon.org/#text={{ sharetxt | uri_escape }}">Share on Mastodon</a> or <a class="button button-bluesky" href="https://bsky.app/intent/compose?text={{ sharetxt | uri_escape }}">Share on Bluesky</a></p>
-    
 <p><small>Respond to this post via <a href="https://indieweb.org/webmentions">webmention</a> from your own site!</small></p>
+</section>
     
 {% if page.syndicated %}
 <section id="syndication">
