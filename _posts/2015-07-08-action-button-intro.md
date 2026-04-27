@@ -5,7 +5,7 @@ date: 2015-07-08
 source: https://codepen.io/plfstr/pen/MwVGxR
 tags: [codepen, material design, css]
 ---
-With the release of [Material Design Lite](http://www.getmdl.io), an official framework smoothing the way for Material Design everywhere, it seemed like  perfect timing to put this simple intro effect out there. 
+With the release of [Material Design Lite](https://developers.googleblog.com/en/this-is-material-design-lite/), an official framework smoothing the way for Material Design everywhere, it seemed like  perfect timing to put this simple intro effect out there. 
 
 {% include codepen.html codepen="MwVGxR" height="310" %}
 
