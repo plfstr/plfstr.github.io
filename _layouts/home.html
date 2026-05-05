@@ -3,7 +3,7 @@
 <head>
 {% include meta.html %}
 <link rel="stylesheet" href="/assets/css/style-home.css" media="only screen and (min-width: 800px)">
-<link rel="preload" href="assets/css/style-preview.css" as="style">
+<link rel="preload" href="assets/css/style-preview.css" media="only screen and (min-width: 800px)" as="style">
 </head>
 <body>
 
@@ -67,7 +67,7 @@
                 
                 <pfd-preview>
 					<template shadowrootmode="open">
-					<link rel="stylesheet" href="assets/css/style-preview.css">
+					<link rel="stylesheet" href="assets/css/style-preview.css" media="only screen and (min-width: 800px)">
                     <article class="wrap-preview">
 	                    <div class="wrap-preview--image">
 							<slot name="preview-thumb"></slot>
