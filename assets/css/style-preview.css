@@ -10,7 +10,7 @@
     }
 }
 
-.wrap-preview--title:before {
+::slotted(h2):before {
 	content: "/";
 	content: "/" / "";
 	margin-inline: -.125em .075em;
