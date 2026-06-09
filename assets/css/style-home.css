@@ -39,7 +39,7 @@ article :is(h2, p) {
 
 @media (any-hover: hover) {
 	.figure--hover {
-      display: inline-block;
+      	display: inline-block;
 	    position: relative;
 	    margin: 0;
 	    padding: 0;
@@ -49,27 +49,25 @@ article :is(h2, p) {
 		        transform: scale(1.05);
 		    }
 		}
-	}
-	
-	.figure--hover figcaption {
-	    position: absolute;
-	    inset: 0;
-	    display: flex;
-	    align-items: center;
-	    justify-content: center;
-	    font-size: 1.375em;
-	    line-height: 1;
-	    font-weight: bold;
-	    opacity: 0;
-	    color: var(--col-body, #fff);
-	    background-color: rgba(48, 134, 152, 0.8);
-	    backdrop-filter: blur(.1rem);
-	    transition: opacity 0.1s ease;
-	    hyphens: auto;
-	    z-index: 77;
-	}
-	
-	.figure--hover:hover figcaption, .figure--hover:focus figcaption {
-	    opacity: 1;
+		& figcaption {
+		    position: absolute;
+		    inset: 0;
+		    display: flex;
+		    align-items: center;
+		    justify-content: center;
+		    font-size: 1.375em;
+		    line-height: 1;
+		    font-weight: bold;
+		    opacity: 0;
+		    color: var(--col-body, #fff);
+		    background-color: rgba(48, 134, 152, 0.8);
+		    backdrop-filter: blur(.1rem);
+		    transition: opacity 0.1s ease;
+		    hyphens: auto;
+		    z-index: 77;
+			&:is(:hover, :focus) {
+			    opacity: 1;
+			}
+		}
 	}
 }
