@@ -16,7 +16,7 @@
         --col-highlight: #98fdff;
     }
     
-    @media only screen and (prefers-color-scheme: dark) {
+    @media (prefers-color-scheme: dark) {
         :root {
             --col-body: #ddd;
             --col-primary: #1d2342;
@@ -409,7 +409,7 @@ div:where(.language-css, .language-html, .language-js):before {
     --code-title: "JS";
 }
 
-@media only screen and (min-width: 600px) {
+@media (min-width: 600px) {
     .figure__featimg--portrait {
         float: right;
         float: inline-end;
