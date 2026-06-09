@@ -393,18 +393,20 @@ div:where(.language-css, .language-html, .language-js):before {
     padding: .75rem .75rem 0;
     background-color: var(--col-secondary);
     color: var(--col-highlight, currentColor);
+    content: var(--code-title, "Code");
+    content: var(--code-title, "Code") / var(--code-title, "Code");
 }
 
-div.language-html:before {
-    content: "HTML";
+.language-html {
+    --code-title: "HTML";
 }
 
-div.language-css:before {
-    content: "CSS";
+.language-css {
+    --code-title: "CSS";
 }
 
-div.language-js:before {
-    content: "JS";
+.language-js {
+    --code-title: "JS";
 }
 
 @media only screen and (min-width: 600px) {
