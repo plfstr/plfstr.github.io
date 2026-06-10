@@ -26,12 +26,12 @@ h1,h2 {
     .wrap-content {
         grid-column-start: 2;
         grid-row-start: 2;
-	@media (width >= 1024px) {
-	    margin-top: -1.5rem
-	}
+		@media (width >= 1024px) {
+		    margin-top: -1.5rem;
+		}
     }
 
-    @media (min-height: 45rem) {
+    @media (height >= 45rem) {
         .wrap-sidebar {
             position: sticky;
             top: 3rem;
