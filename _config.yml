@@ -70,8 +70,8 @@ collections:
     permalink: /blog/:slug/
 
 # RSS
-# feed:
-#   path: /blog/feed/
+feed:
+  icon: /assets/images/pfd-webclip-192x192.jpg
 
 # The release of Jekyll Now that you're using
 version: v1.2.0
