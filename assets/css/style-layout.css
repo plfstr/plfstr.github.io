@@ -42,8 +42,8 @@ h1,h2 {
 	.wrap-logo--link {
 	    margin: 0;
 	    rotate: -18deg;
-            scale: 1.3;
-            translate: 1rem 3.5rem;
+		scale: 1.3;
+		translate: 1rem 3rem;
 	}
 }
 
