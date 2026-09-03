@@ -87,24 +87,26 @@ h1:before {
     all: revert;
 }
 
-@scope (.wrap-preview) {	
-	:scope {
-	        display: flow-root;
-	        overflow: visible;
-	}
+@supports at-rule(@scope) {
+	@scope (.wrap-preview) {	
+		:scope {
+		        display: flow-root;
+		        overflow: visible;
+		}
+		
+		h1:before {
+		    color: unset
+		}
+		
+		img {
+		    float: inline-end;
+		    margin-inline-start: .5rem;
+		    max-width: 40%;
+		}
 	
-	h1:before {
-	    color: unset
-	}
-	
-	img {
-	    float: inline-end;
-	    margin-inline-start: .5rem;
-	    max-width: 40%;
-	}
-
-	p {
-	    margin: .75rem 0 1.5rem;
-    	    text-wrap: pretty
+		p {
+		    margin: .75rem 0 1.5rem;
+	    	    text-wrap: pretty
+		}
 	}
 }
