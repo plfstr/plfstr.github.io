@@ -16,10 +16,9 @@ In my professional career, I have worked for several household name e-commerce r
 *	Launched [blackandwhitesquares.com](/work/blackandwhitesquares/) about QR code use, built on Tumblr.
 *	[Brush Swap](/blog/brush-swap/) app for prompting people to replace their toothbrush.
 *	[CodePen](https://codepen.io/plfstr/popular/) code demo success:
-	+ [Excerpt Peek](/blog/excerpt-peek/), [Flexbox Film Credits](/blog/flexbox-film-credits/) and [Chicken Swing Dynamic](/blog/chicken-swing-dynamic/) selected for <i>Editor Picks</i>. 
-	+ [CSS 1K](/blog/css1k-on-codepen/) theme for 1kB CSS coding challenge sparked a CodePen blog post. 
-	+ [Hop Over Notification](/blog/10k-hop-over-views/) CSS keyframe effect has 65,000+ views, 200+ likes.
 	+ [HTML Memory Test](/blog/html-elements-test/) went [viral then featured](/blog/html-memory-tested/) in several newsletters and [amassed 100,000+ views](/blog/100k-html-tests/).
+	+ [Excerpt Peek](/blog/excerpt-peek/), [Flexbox Film Credits](/blog/flexbox-film-credits/) and [Chicken Swing Dynamic](/blog/chicken-swing-dynamic/) selected for <i>Editor Picks</i>. 
+	+ [CSS 1K](/blog/css1k-on-codepen/) theme for 1kB CSS coding challenge sparked a CodePen blog post.
 *	[Kirby CodePen extension](/blog/kirbytag-codepen/) featured on getkirby-plugins.com.
 *	Contributed to open source projects [on GitHub](https://github.com/plfstr) (Arctic Code Vault Contributor) and participated in [user testing](/blog/council-website-testing/) of the local council website redesign.
 *	[404 page](/404page/) featured in numerous collections of creative 404s.
