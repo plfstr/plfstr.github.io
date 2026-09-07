@@ -15,7 +15,7 @@ In my professional career, I have worked for several household name e-commerce r
 *	Created ‘[Print Theme](/work/print-theme/)’ for Tumblr blogging platform. Peak of 450+ installs.
 *	Launched [blackandwhitesquares.com](/work/blackandwhitesquares/) about QR code use, built on Tumblr.
 *	[Brush Swap](/blog/brush-swap/) app for prompting people to replace their toothbrush.
-*	Code demo success on [CodePen](https://codepen.io/plfstr/popular/):
+*	[CodePen](https://codepen.io/plfstr/popular/) code demo success:
 	+ [Excerpt Peek](/blog/excerpt-peek/), [Flexbox Film Credits](/blog/flexbox-film-credits/) and [Chicken Swing Dynamic](/blog/chicken-swing-dynamic/) selected for <i>Editor Picks</i>. 
 	+ [CSS 1K](/blog/css1k-on-codepen/) theme for 1kB CSS coding challenge sparked a CodePen blog post. 
 	+ [Hop Over Notification](/blog/10k-hop-over-views/) CSS keyframe effect has 65,000+ views, 200+ likes.
