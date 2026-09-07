@@ -51,7 +51,7 @@ If you have never got a message before. They disappear after you reply and I hav
 
 * I didn’t have any question/answer posts myself and made an error in the coding, I should have looked over this extra carefully as I had no way to preview it and the mistake got overlooked. I also discovered it does different things for a known asker and an anonymous, which my CSS was relying on and broke again.
 * I amended my theme and resubmitted it [I was unsure if you could do this but you can, you go via ‘manage my themes’ when you are logged in and go to the theme garden]. It takes a few days for the amends to go live.
-* When you amend a theme I assumed it updated for everyone who had that theme installed, it doesn’t seem to work like that update: it does seem to in the majority of cases, but not always, I can still find users with the broken question post type. Might be a server propagation thing.
+* When you amend a theme I assumed it updated for everyone who had that theme installed, ~it doesn’t seem to work like that~ **update**: it does seem to in the majority of cases, but not always, I can still find users with the broken question post type. Might be a server propagation thing.
 
 ## Lessons Learned
 
