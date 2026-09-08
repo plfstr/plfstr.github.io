@@ -82,6 +82,33 @@ h1,h2 {
 	}
 }
 
+@keyframes roleEffect {
+    0% {
+        opacity: 0;
+		transform: translateX(1.5rem);
+    },
+    50% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+:is(h2, h3) + p:has(strong):has(+ ul) {
+    @media not (prefers-reduced-motion) {
+        animation-name: roleEffect;
+        animation-duration: 1s;
+        animation-direction: both;
+        animation-fill-mode: both;
+        animation-timeline: scroll();
+        &:nth-of-type(3) {
+             animation-delay: .5s;
+        }
+        &:nth-of-type(4) {
+             animation-delay: 1s;
+        }
+    }
+}
+
 .wrap-preview {
     all: revert;
     overflow: auto;
