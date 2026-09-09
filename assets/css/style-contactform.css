@@ -16,6 +16,8 @@ textarea {
     font-family: inherit;
     font-size: inherit;
     background-color: var(--col-body, revert);
+    border-radius: .125rem;
+    accent-color: var(--col-highlight, inherit);
 }
 
 textarea {
