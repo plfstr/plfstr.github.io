@@ -165,7 +165,7 @@ a[rel] {
 
 article a[href*="//"]:not([href*="paulfosterdesign.co.uk/"]):after {
     content: " \2794";
-    content: " \2794" / "";
+    content: "\2009\2794" / "";
     font-size: initial;
     color: currentColor
 }
@@ -318,14 +318,12 @@ dt {
 
 .button[rel="prev"]:before {
     content: "\21E6";
-    content: "\21E6" / "Left arrow";
-    margin-inline-end: .125em
+    content: "\21E6\2009" / "Left arrow";
 }
 
 .button[rel="next"]:after {
     content: "\21E8";
-    content: "\21E8" / "Right arrow";
-    margin-inline-start: .125em
+    content: "\2009\21E8" / "Right arrow";
 }
 
 .icon {
