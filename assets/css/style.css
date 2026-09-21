@@ -427,15 +427,16 @@ div:where(.language-css, .language-html, .language-js):before {
     margin: 0 0 1.5rem;
 }
 
-:is(h2, h3) + p:has(strong):has(+ ul) {
-    margin: -1em 0 .75rem;
-    color: var(--col-highlight);
-}
-
-:is(h2, h3) em {
-    font-family: var(--font-body);
-    font-size: .875em;
-    font-weight: normal;
+:is(h2, h3), 
+:where(:heading(2, 3)) {
+    & + p:has(strong):has(+ ul) {
+        margin: -1em 0 .75rem;
+        color: var(--col-highlight);
+    }
+    
+    & em {
+        font: normal .875em var(--font-body);
+    }
 }
 
 .list--navigation li {
