@@ -94,6 +94,10 @@ h1,h2 {
     }
 }
 
+.wrap-preview--title {
+    margin: 0 0 .75rem;
+}
+
 .wrap-preview--title:before {
 	content: "/";
 	content: "/" / "";
