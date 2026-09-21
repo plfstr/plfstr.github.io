@@ -381,6 +381,10 @@ dt {
     }
 }
 
+.cp_embed_wrapper {
+    frame-sizing: content-height;
+}
+
 .cp_embed_wrapper,
 .figure__featimg {
     display: block;
