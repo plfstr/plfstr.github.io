@@ -298,9 +298,8 @@ dt {
         background-color: white;
     }
     &:after {
-        content: "\21E8";
-        content: "\21E8" / "Right arrow";
-        margin-inline-start: .125em;
+        content: " \21E8";
+        content: "\2009\21E8" / "Right arrow";
     }
 }
 
