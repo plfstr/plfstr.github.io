@@ -170,9 +170,13 @@ article a[href*="//"]:not([href*="paulfosterdesign.co.uk/"]):after {
     color: currentColor
 }
 
-@media (any-hover: none) {
-    abbr[title]::after {
-      content: "(" attr(title) ")";
+abbr[title] {
+    text-decoration-thickness: 1px;
+    text-underline-offset: .2em;
+    @media (any-hover: none) {
+        &::after {
+          content: "(" attr(title) ")";
+        }
     }
 }
 
