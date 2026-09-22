@@ -70,7 +70,7 @@ body {
     position: relative;
     margin: 0 auto;
     padding: .75rem;
-    padding: env(safe-area-inset-top, 1.5rem), env(safe-area-inset-right, .75rem), env(safe-area-inset-bottom, 1.5rem), env(safe-area-inset-left, .75rem);
+    padding: max(1.5rem, env(safe-area-inset-top)) max(.75rem, env(safe-area-inset-right)) max(1.5rem, env(safe-area-inset-bottom)) max(.75rem, env(safe-area-inset-left));
     font: 100%/1.5 var(--font-body, sans-serif);
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
