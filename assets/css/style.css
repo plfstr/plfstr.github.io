@@ -70,6 +70,7 @@ body {
     position: relative;
     margin: 0 auto;
     padding: .75rem;
+    padding: env(safe-area-inset-top, 1.5rem), env(safe-area-inset-right, .75rem), env(safe-area-inset-bottom, 1.5rem), env(safe-area-inset-left, .75rem);
     font: 100%/1.5 var(--font-body, sans-serif);
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -79,12 +80,6 @@ body {
     background-repeat: no-repeat;
     background-image: linear-gradient(162deg, var(--col-highlight), 10rem, var(--col-primary) 30rem);
     -ms-overflow-style: -ms-autohiding-scrollbar;
-}
-
-@supports (padding: max(0px)) {
-    body {
-        padding: max(1.5rem, env(safe-area-inset-top)) max(.75rem, env(safe-area-inset-right)) max(1.5rem, env(safe-area-inset-bottom)) max(.75rem, env(safe-area-inset-left));
-    }
 }
 
 article {
