@@ -10,7 +10,7 @@
 }
 
 @property --code-title {
-    syntax: "CSS | HTML | JS";
+    syntax: "CSS | HTML | JS | Code";
     inherits: false;
     initial-value: Code;
 }
