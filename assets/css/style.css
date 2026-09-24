@@ -9,12 +9,6 @@
     --font-hero: "Segoe UI", Tahoma, Arial, sans-serif;
 }
 
-@property --code-title {
-    syntax: "CSS | HTML | JS | Code";
-    inherits: false;
-    initial-value: Code;
-}
-
 @supports not (color: light-dark(blue, green)) {
     :root {
         --col-body: #fafafa;
@@ -29,6 +23,12 @@
             --col-highlight: #46c4cf;
         }
     }
+}
+
+@property --code-title {
+    syntax: "CSS | HTML | JS | Code";
+    inherits: false;
+    initial-value: Code;
 }
 
 html {
