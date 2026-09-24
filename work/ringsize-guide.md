@@ -15,4 +15,4 @@ Tasked with creating a downloadable and printable measuring tape for Ideal World
 *	Precise and simple instructions and uncluttered design.
 *	Sparing use of colour to keep customers print time quick and light on ink use.
 
-The ring size guide I designed is as accurate as the tape that Goldsmiths distribute through their website and was available for customers to download from 2008–2016 on the Ideal World website.
+The ring size guide I designed was available for customers to download from 2008–2016 on the Ideal World website.
