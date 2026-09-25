@@ -73,7 +73,7 @@ h1,h2 {
 			translate: max(12%, 2.5rem) 30%;
 			transform: skew(-15deg);
 			scale: 1 0.5;
-	        background-color: var(--col-secondary)
+	        background-color: var(--col-shadow, rgba(0,0,0,.2));
 	    }
 	
 	    .figure__featimg--portrait:after {
