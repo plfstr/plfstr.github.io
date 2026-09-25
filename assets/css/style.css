@@ -352,7 +352,7 @@ dt {
 }
 
 .wrap-banner--nav {
-    text-shadow: .1em .08em 0 rgba(0,0,0,.1)
+    text-shadow: .1em .08em 0 var(--col-shadow, rgba(0,0,0,.2));
 }
 
 .wrap-preview, .codepen, #mentionable {
@@ -388,7 +388,7 @@ dt {
 .figure__featimg {
     display: block;
     max-width: 43.75rem;
-    box-shadow: .75rem .75rem 0 rgba(0,0,0,.2)
+    box-shadow: .75rem .75rem 0 var(--col-shadow, rgba(0,0,0,.2));
 }
 
 div:where(.language-css, .language-html, .language-js):before {
