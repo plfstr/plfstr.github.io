@@ -5,6 +5,7 @@
     --col-highlight: light-dark(#98fdff, #46c4cf);
     --col-secondary: rgba(150, 200, 250, .1);
     --col-lowlight: #787e8b;
+    --col-shadow: rgba(0, 0, 20, .2);
     --font-body: sans-serif;
     --font-hero: "Segoe UI", Tahoma, Arial, sans-serif;
 }
