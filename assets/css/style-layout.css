@@ -87,8 +87,12 @@ h1,h2 {
 		        display: flow-root;
 		        overflow: visible;
 		}
+
+		h2 {
+			margin: 0 0 .75rem;
+		}
 		
-		h1:before {
+		h2:before {
 		    color: unset
 		}
 		
