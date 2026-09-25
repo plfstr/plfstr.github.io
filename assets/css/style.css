@@ -301,12 +301,6 @@ dt {
     background-color: var(--col-secondary);
 }
 
-.wrap-preview--title {
-    margin: 0 0 .75rem;
-    font-size: 2em;
-    line-height: 1
-}
-
 .codepen {
     padding: .75rem;
     background-color: var(--col-secondary);
