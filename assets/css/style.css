@@ -25,6 +25,12 @@
     }
 }
 
+@property --code-title {
+    syntax: "<string>";
+    inherits: false;
+    initial-value: Code;
+}
+
 html {
     box-sizing: border-box;
     scrollbar-color: var(--col-lowlight) var(--col-secondary);
