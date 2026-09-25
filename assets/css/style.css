@@ -26,7 +26,7 @@
 }
 
 @property --code-title {
-    syntax: "CSS | HTML | JS | Code";
+    syntax: "<string>";
     inherits: false;
     initial-value: Code;
 }
