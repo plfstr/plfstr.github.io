@@ -366,12 +366,6 @@ dt {
     margin-trim: block;  
 }
 
-.wrap-preview--title {
-    margin: 0 0 .75rem;
-    font-size: 2rem;
-    line-height: 1
-}
-
 /* Limit pagination button width */
 .wrap-pagination li:only-child {
   max-width: calc(50% - .5rem);
