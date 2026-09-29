@@ -9,15 +9,15 @@ layout: default
 {% for app in site.data.apps %}
 <article class="wrap-preview">
 	{% if app.thumb %}
-	<a class="wrap-preview--image figure__featimg" href="{{ app.url }}" tabindex="-1">
-		<img src="{{ app.thumb }}" alt="{{ app.name }}" width="320" height="320" loading="lazy">
+	<a class="wrap-preview--image figure__featimg" href="{{ app.url | url_encode }}" tabindex="-1">
+		<img src="{{ app.thumb | prepend: app.url | url_encode }}" alt="{{ app.name }}" width="320" height="320" loading="lazy">
 	</a>
 	{% endif %}
-	<h1 class="h2"><a href="{{ app.url }}">{{ app.name }}</a></h1>
+	<h1 class="h2"><a href="{{ app.url | url_encode }}">{{ app.name }}</a></h1>
 	<p>{{ app.description }}</p>
 	{% if app.more %}
-	<p>Find out more <a href="{{ app.more }}">about {{ app.name }}</a></p>
+	<p>Find out more <a href="{{ app.more | url_encode }}">about {{ app.name }}</a></p>
 	{% endif %}
-	<p><a class="button button-hero" href="{{ app.url }}">{{ app.name }}</a></p>
+	<p><a class="button button-hero" href="{{ app.url | url_encode }}">{{ app.name }}</a></p>
 </article>
 {% endfor %}
