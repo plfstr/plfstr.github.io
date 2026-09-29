@@ -1,0 +1,23 @@
+- name: Colordinates
+- url: /colordinates/
+- description: Colordinates uses your devices geographic position to display a color swatch and the HSLA color value.
+- more: /blog/colordinates/
+- icon: webclip-512x512-maskable.png
+
+- name: Brush Swap
+- url: /brushswap/
+- description: The next time you find yourself wondering when you last changed your brush, check back and see how many days until you need a new brush.
+- more: /blog/brush-swap/
+- icon: webclip-512x512-maskable.png
+
+- name: Elitricity
+- url: /elitricity/
+- description: Current mix of electricity sources in the UK National Grid using the Carbon Intensity API by National Grid.
+- more: /blog/elitricity/
+- icon: logo-elit-512x512.png
+
+- name: HNue
+- url: /hnue/
+- description: Hacker News but nicer (with regular sized text). Built with Vue and Vue Router.
+- more: 
+- icon: webclip-512x512-maskable.png
