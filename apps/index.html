@@ -7,13 +7,17 @@ layout: default
 <p>I have developed a number of web apps to solve various problems and improve my skills.</p>
 					
 {% for app in site.data.apps %}
-<article class="wrap-preview">				
+<article class="wrap-preview">
+	{% if app.thumb %}
 	<a class="wrap-preview--image figure__featimg" href="{{ app.url }}" tabindex="-1">
 		<img src="{{ app.thumb }}" alt="{{ app.name }}" width="320" height="320" loading="lazy">
 	</a>
+	{% endif %}
 	<h1 class="h2"><a href="{{ app.url }}">{{ app.name }}</a></h1>
 	<p>{{ app.description }}</p>
+	{% if app.more %}
 	<p>Find out more <a href="{{ app.more }}">about {{ app.name }}</a></p>
+	{% endif %}
 	<p><a class="button button-hero" href="{{ app.url }}">{{ app.name }}</a></p>
 </article>
 {% endfor %}
