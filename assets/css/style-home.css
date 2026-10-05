@@ -61,6 +61,7 @@
 		    opacity: 0;
 		    color: var(--col-body, #fff);
 		    background-color: rgba(48, 134, 152, 0.8);
+			backgrund-color: hsl(from var(--col-highlight) h s 30 / .9);
 		    backdrop-filter: blur(.1rem);
 		    transition: opacity 0.1s ease;
 		    hyphens: auto;
