@@ -373,13 +373,13 @@ dt {
 
 .codepen {
     font-family: monospace, monospace;
-}
-
-.cp_embed_iframe {
-    frame-sizing: content-height;
     @media not (scripting: none) {
         height: attr(data-height px, 300px);
     }
+}
+
+.cp_embed_wrapper {
+    frame-sizing: content-height;
 }
 
 .cp_embed_wrapper,
