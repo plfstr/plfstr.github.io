@@ -42,6 +42,10 @@ main,picture,iframe,img {
     display: none
 }
 
+figure {
+    margin: auto;
+}
+
 img {
     width: 100%;
     max-width: 100%;
