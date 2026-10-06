@@ -70,5 +70,8 @@
 			    opacity: 1;
 			}
 		}
+		& .figure__featimg {
+			margin: 0;
+		}
 	}
 }
