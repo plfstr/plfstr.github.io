@@ -405,10 +405,6 @@ div:where(.language-css, .language-html, .language-js):before {
     padding-inline-start: .25em;
 }
 
-.figure--hover {
-    margin: 0 0 1.5rem;
-}
-
 :is(h2, h3), 
 :where(:heading(2, 3)) {
     & + p:has(strong):has(+ ul) {
