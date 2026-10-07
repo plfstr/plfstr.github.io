@@ -94,6 +94,9 @@ Disallow:
 User-agent: OAI-SearchBot
 Disallow: 
 
+User-agent: ExaSearchBot
+Disallow: 
+
 User-agent: *
 Disallow: /
 
