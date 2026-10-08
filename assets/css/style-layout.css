@@ -99,13 +99,7 @@ h1,h2 {
         animation-duration: 1s;
         animation-direction: both;
         animation-fill-mode: both;
-        animation-timeline: scroll();
-        &:nth-of-type(3) {
-             animation-delay: .5s;
-        }
-        &:nth-of-type(4) {
-             animation-delay: 1s;
-        }
+        animation-timeline: view();
     }
 }
 
