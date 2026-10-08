@@ -83,11 +83,11 @@ h1,h2 {
 }
 
 @keyframes roleEffect {
-    0% {
+    from {
         opacity: 0;
 		transform: translateX(1.5rem);
     },
-    50% {
+    to {
         opacity: 1;
         transform: none;
     }
