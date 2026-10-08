@@ -96,7 +96,7 @@ h1,h2 {
 :is(h2, h3) + p:has(strong):has(+ ul) {
     @media not (prefers-reduced-motion) {
         animation-name: roleEffect;
-        animation-duration: 1s;
+        animation-duration: 1ms;
         animation-direction: both;
         animation-fill-mode: both;
         animation-timeline: view();
