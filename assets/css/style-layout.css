@@ -98,7 +98,6 @@ h1,h2 {
         animation-name: roleEffect;
         animation-duration: 1ms;
         animation-direction: both;
-        animation-fill-mode: both;
         animation-timeline: view();
     }
 }
