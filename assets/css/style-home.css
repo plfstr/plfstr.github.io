@@ -55,6 +55,7 @@
 		    display: flex;
 		    align-items: center;
 		    justify-content: center;
+			text-align: center;
 		    font-size: 1.375em;
 		    line-height: 1;
 		    font-weight: bold;
