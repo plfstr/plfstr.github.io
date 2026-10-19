@@ -22,7 +22,6 @@ In my professional career, I have worked for several household name e-commerce r
 *	[Kirby CodePen extension](/blog/kirbytag-codepen/) featured on getkirby-plugins.com.
 *	Contributed to open source projects [on GitHub](https://github.com/plfstr) (Arctic Code Vault Contributor) and participated in [user testing](/blog/council-website-testing/) of the local council website redesign.
 *	[404 page](/404page/) featured in numerous collections of creative 404s.
-*	Completed UK Gov, AI Skills Boost course.
 
 
 ### Thomas Cook - Web Designer _9 week contract role_
@@ -60,6 +59,10 @@ In my professional career, I have worked for several household name e-commerce r
 
 *	[LEDFin](/ledfin/), an LED desk lamp: _Second Place_, **UK Student Lighting Design Competition** and _Finalist_, **Lights of the Future** competition in Frankfurt
 *	Exhibited at **New Designers** exhibition, Business Design Centre, London
+
+### Courses
+
+* Completed UK Gov, AI Skills Boost course.
 
 
 ## Have a role for me?
