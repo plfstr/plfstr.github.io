@@ -279,7 +279,7 @@ dt {
     cursor: pointer;
     -webkit-appearance: none;
     appearance: none;
-    border-radius: .125rem
+    border-radius: .25rem
 }
 
 .button-hero {
