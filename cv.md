@@ -62,7 +62,7 @@ In my professional career, I have worked for several household name e-commerce r
 
 ### Courses
 
-* Completed UK Gov, AI Skills Boost course.
+* Completed UK Gov, Foundation AI Skills Boost.
 
 
 ## Have a role for me?
