@@ -8,6 +8,7 @@
     --col-shadow: rgba(0, 0, 20, .2);
     --font-body: sans-serif;
     --font-hero: "Segoe UI", Tahoma, Arial, sans-serif;
+    --brdr: 1px solid rgba(150, 255, 230, .2);
 }
 
 @property --code-title {
@@ -279,6 +280,7 @@ dt {
     cursor: pointer;
     -webkit-appearance: none;
     appearance: none;
+    border: var(--brdr, none);
     border-radius: .25rem
 }
 
@@ -351,6 +353,7 @@ dt {
 }
 
 .wrap-preview {
+    border: var(--brdr, none);
     margin-trim: block;  
 }
 
