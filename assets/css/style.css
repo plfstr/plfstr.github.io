@@ -350,6 +350,7 @@ dt {
     padding: .75rem;
     border-radius: .125rem;
     background-color: var(--col-secondary);
+    contain: layout;
 }
 
 .wrap-preview {
